@@ -31,7 +31,7 @@ export const quizQuestions_11 = {
         correctAnswer: "Viewport widths where the page layout changes based on screen size.",
       },
       {
-        question: "At what width is the common breakpoint for switching between small and large screens?",
+        question: "At what width is the common breakpoint for switching between 'small' and 'large' screens?",
         choices: [
           "960px",
           "1024px",
@@ -61,24 +61,19 @@ export const quizQuestions_11 = {
         correctAnswer: "It adjusts the space between the content and the border.",
       },
       {
-        question: "In the example provided, what padding percentage is applied to the body element for small screens (up to 767px)?",
-        choices: [
-          "4% 20%",
-          "8% 5%",
-          "5% 5%",
-          "10% 15%"
-        ],
-        correctAnswer: "8% 5%",
+        question: "What CSS rule is used to create media queries?",
+        choices: ["@media", "@responsive", "@breakpoint", "@screen"],
+        correctAnswer: "@media"
       },
       {
-        question: "Which screen resolution is the most common for tablets in portrait mode according to StatCounter?",
+        question: "What does 'min-width: 768px' in a media query target?",
         choices: [
-          "360x640",
-          "768x1024",
-          "1280x800",
-          "1440x900"
+          "Screens exactly 768px wide",
+          "Screens 768px wide or wider",
+          "Screens narrower than 768px",
+          "Screens between 0px and 768px wide"
         ],
-        correctAnswer: "768x1024",
+        correctAnswer: "Screens 768px wide or wider"
       },
       {
         question: "Why are media queries important for Responsive Web Design?",

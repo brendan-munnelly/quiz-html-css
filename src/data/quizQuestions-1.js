@@ -7,9 +7,9 @@ export const quizQuestions_1 = {
     correctAnswer: "Brave",
   },
   {
-    question: "Which browser is recommended as a replacement for Internet Explorer by Microsoft?",
-    choices: ["Safari", "Microsoft Edge", "Google Chrome", "Mozilla Firefox"],
-    correctAnswer: "Microsoft Edge",
+    question: "What file extension do stylesheet files typically have?",
+    choices: [".html", ".js", ".css", ".php"],
+    correctAnswer: ".css"
   },
   {
     question: "Where can you find the option to display the Menu Bar in Firefox Developer Edition?",
@@ -24,12 +24,12 @@ export const quizQuestions_1 = {
   {
     question: "Which key combination opens the Developer Tools in most web browsers?",
     choices: [
-      "Ctrl + Shift + I",
-      "Ctrl + Alt + T",
-      "Ctrl + Shift + T",
-      "Alt + Shift + I"
+      "Ctrl + Shift + i",
+      "Ctrl + Alt + t",
+      "Ctrl + Shift + t",
+      "Alt + Shift + i"
     ],
-    correctAnswer: "Ctrl + Shift + I",
+    correctAnswer: "Ctrl + Shift + i",
   },
   {
     question: "Which of the following is true about Brave compared to Google Chrome?",
@@ -62,12 +62,12 @@ export const quizQuestions_1 = {
     correctAnswer: "In the <head> section",
   },
   {
-    question: "Which browser is specifically tailored for web designers and developers?",
+    question: "Which version of Mozilla Firefox is tailored for web designers and developers?",
     choices: [
-      "Google Chrome",
-      "Microsoft Edge",
-      "Mozilla Firefox Developer Edition",
-      "Safari"
+      "Mozilla Firefox Quantum", 
+      "Mozilla Firefox Nightly", 
+      "Mozilla Firefox Developer Edition", 
+      "Mozilla Firefox Enterprise"
     ],
     correctAnswer: "Mozilla Firefox Developer Edition",
   },

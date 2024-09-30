@@ -31,24 +31,19 @@ export const quizQuestions_6 = {
     correctAnswer: "By searching for 'HTMLHint' in the Extensions view and clicking Install",
   },
   {
-    question: "What is the correct file name format when saving your downloaded HTML file?",
+    question: "How many <title> tags should be in the <head> of an HTML document?",
     choices: [
-      "page-2.html",
-      "Page-2.html",
-      "PAGE-2.HTML",
-      "page - 2.html"
+      "As many as needed", 
+      "At least one", 
+      "Exactly one", 
+      "None"
     ],
-    correctAnswer: "page-2.html",
-  },
+    correctAnswer: "Exactly one"
+   },
   {
-    question: "What must be unique in the <head> section of every web page?",
-    choices: [
-      "Multiple titles and descriptions",
-      "Just one title and one description",
-      "Multiple <meta> tags",
-      "Multiple stylesheets"
-    ],
-    correctAnswer: "Just one title and one description",
+    question: "How many <h1> tags should typically be in the <body> of an HTML document?",
+      choices: ["As many as needed", "At least one", "Exactly one", "None"],
+      correctAnswer: "Exactly one"
   },
   {
     question: "What is the function of closing tags in HTML?",
@@ -71,24 +66,24 @@ export const quizQuestions_6 = {
     correctAnswer: "Shows a warning with the number of errors and their line numbers",
   },
   {
-    question: "Where should you add the hyperlink to your second web page in your index.html?",
+    question: "What is the correct way to save an HTML file when using the 'Save Page As...' command?",
     choices: [
-      "In the <title> tag",
-      "In the <head> section",
-      "Inside a paragraph tag <p> in the <body> section",
-      "In the <footer> tag"
+      "Web Page, complete",
+      "Web Page, HTML Only",
+      "Text Document",
+      "All Files"
     ],
-    correctAnswer: "Inside a paragraph tag <p> in the <body> section",
+    correctAnswer: "Web Page, HTML Only"
   },
   {
-    question: "Which of the following steps is required to upload files to GitHub?",
+    question: "When uploading files to GitHub, what method must be used if you're uploading both files and folders?",
     choices: [
-      "Copy-paste the files into GitHub",
-      "Click 'Add file' and drag-and-drop your files to upload",
-      "Use the GitHub Desktop app",
-      "Attach files in an email to GitHub support"
+      "File select method",
+      "Drag-and-drop method",
+      "Command line interface",
+      "GitHub desktop application"
     ],
-    correctAnswer: "Click 'Add file' and drag-and-drop your files to upload",
+    correctAnswer: "Drag-and-drop method"
   },
   {
     question: "What is the correct way to ensure your web page is published on GitHub?",

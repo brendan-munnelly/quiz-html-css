@@ -63,7 +63,7 @@ export const quizQuestions_8 = {
   {
     question: "How can you generate Lorem Ipsum text in VS Code?",
     choices: [
-      "By typing 'lorem' and selecting it from the Emmet Abbreviation menu",
+      "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
       "By typing random characters",
       "By pressing the Ctrl+L key",
       "By copying it from the web"

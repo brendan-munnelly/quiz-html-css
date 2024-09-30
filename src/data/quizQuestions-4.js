@@ -17,7 +17,7 @@ export const quizQuestions_4 = {
         correctAnswer: "HTML",
       },
       {
-        question: "Which of the following is the correct way to name your main folder?",
+        question: "Which of the following would be the correct way to name your 'main' folder?",
         choices: ["websites", "Websites", "web sites", "WEBSITES"],
         correctAnswer: "websites",
       },

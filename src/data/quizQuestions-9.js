@@ -33,12 +33,12 @@ export const quizQuestions_9 = {
   {
     question: "How is a declaration block in CSS structured?",
     choices: [
-      "With an opening and closing square bracket",
-      "With an opening and closing curly brace",
-      "With a forward slash",
-      "With an asterisk"
+      "With an opening and closing square bracket [ ]",
+      "With an opening and closing curly brace { }",
+      "With a forward slash /",
+      "With an asterisk *"
     ],
-    correctAnswer: "With an opening and closing curly brace",
+    correctAnswer: "With an opening and closing curly brace { }",
   },
   {
     question: "What does a CSS property and value pair represent?",

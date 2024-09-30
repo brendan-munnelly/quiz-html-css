@@ -3,102 +3,97 @@ export const quizQuestions_13 = {
     {
         question: "What CSS property is used to change the background colour of an element?",
         choices: [
-          "A) color",
-          "B) background-color",
-          "C) font-color",
-          "D) border-color"
+          "color",
+          "background-color",
+          "font-color",
+          "border-color"
         ],
         correctAnswer: "background-color",
       },
       {
-        question: "Which CSS rule would correctly apply a brown text colour to all h1, h2, and h3 tags?",
+        question: "Which ONE of the following is NOT a correctly formatted CSS style rule?",
         choices: [
-          "A) h1, h2, h3 { color: brown; }",
-          "B) h1, h2, h3 { background-color: brown; }",
-          "C) h1, h2, h3 { font-color: brown; }",
-          "D) h1, h2, h3 { color: white; }"
+          "h2 { color: #ffff00; }",
+          "h2 { color: #FFFF00 }",
+          "h2 { color: green: }",
+          "h2 { color: RGB(255,0,0) }"
         ],
-        correctAnswer: "h1, h2, h3 { color: brown; }",
+        correctAnswer: "h2 { color: green: }",
       },
       {
-        question: "What background colour is applied to the body in the style-2.css file?",
+        question: "Which ONE of the following is NOT a correctly formatted CSS style rule?",
         choices: [
-          "A) Light blue",
-          "B) Light green",
-          "C) Purple",
-          "D) Antiquewhite"
+          "p { color: RGB(255,0,0); }",
+          "p { color: rgb(0,0,0) }",
+          "p { color: ffffff; }",
+          "p { color: #00ff00 }"
         ],
-        correctAnswer: "Purple",
+        correctAnswer: "p { color: ffffff; }",
       },
       {
-        question: "In the style-3.css file, what text colour is applied to the h2 tags?",
+        question: "What is a colour palette?",
         choices: [
-          "A) Blue",
-          "B) White",
-          "C) Brown",
-          "D) Darkgreen"
+          "A way of setting colours with hex codes.",
+          "A combination of colours that work together harmoniously.",
+          "A way of setting colours with RGB codes.",
+          "A combination of one light and one dark colour only."
         ],
-        correctAnswer: "Blue",
+        correctAnswer: "A combination of colours that work together harmoniously.",
       },
       {
-        question: "Which colour is used for the hyperlinks (<a>) in the global.css file?",
+        question: "Typically, where do you set the colours for the elements in a web page",
         choices: [
-          "A) Blue",
-          "B) Darkgreen",
-          "C) White",
-          "D) Lightgreen"
+          "In the HTML file",
+          "In the CSS file",
+          "In the README.md file",
+          "All of the above"
         ],
-        correctAnswer: "Darkgreen",
+        correctAnswer: "In the CSS file",
       },
       {
         question: "What is the correct way to set the background colour of the body to lightgreen in CSS?",
         choices: [
-          "A) body { background-color: green; }",
-          "B) body { background-color: lightgreen; }",
-          "C) body { background-color: lightblue; }",
-          "D) body { color: lightgreen; }"
+          "body { background-color: green; }",
+          "body { background-color: lightgreen; }",
+          "body { background-color: lightblue; }",
+          "body { color: lightgreen; }"
         ],
         correctAnswer: "body { background-color: lightgreen; }",
       },
       {
-        question: "In which file is the background colour set to 'antiquewhite'?",
+        question: "Which ONE of the following style rules correctly displays a hyperlink in blue?",
         choices: [
-          "A) style-1.css",
-          "B) style-2.css",
-          "C) style-3.css",
-          "D) global.css"
+          "a { color: blue: }",
+          "ahref { color: blue; }",
+          "a { color; blue }",
+          "a { color: RGB(0,0,255) }"
         ],
-        correctAnswer: "style-1.css",
+        correctAnswer: "a { color: RGB(0,0,255) }",
       },
       {
         question: "Which CSS property is used to change the text colour?",
         choices: [
-          "A) font-color",
-          "B) text-color",
-          "C) color",
-          "D) background-color"
+          "font-color",
+          "text-color",
+          "color",
+          "background-color"
         ],
         correctAnswer: "color",
       },
       {
-        question: "What is the background colour of the body in the style-3.css file?",
-        choices: [
-          "A) Lightblue",
-          "B) Purple",
-          "C) Lightgreen",
-          "D) Antiquewhite"
-        ],
-        correctAnswer: "Lightblue",
+        question: "Which color model is based on red, green, and blue values?",
+        choices: ["CMYK", "HSL", "RGB", "HEX"],
+          correctAnswer: "RGB"
       },
       {
-        question: "What command would you use to upload your updated CSS files and HTML pages to GitHub?",
-        choices: [
-          "A) git add .",
-          "B) git pull origin main",
-          "C) git push origin master",
-          "D) git commit -m 'Updated CSS files'"
+        question: "Which of the following is NOT a valid way to specify a color in CSS?",
+          choices: [
+            "color: #00FF00;",
+            "color: rgb(0, 255, 0);",
+            "color: green;",
+            "color: 00FF00;"
         ],
-        correctAnswer: "git push origin master",
+        correctAnswer: "color: 00FF00;"
       }
 ],
 }

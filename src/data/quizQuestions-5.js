@@ -12,9 +12,9 @@ export const quizQuestions_5 = {
     correctAnswer: "Emmet",
   },
   {
-    question: "How do you open a new text file in Visual Studio Code?",
-    choices: ["File | Open", "File | New Text File", "Edit | New", "View | New File"],
-    correctAnswer: "File | New Text File",
+    question: "Which VS Code shortcut can you use to quickly add the basic HTML structure to a new file?",
+    choices: ["html!", "!html", "!", "html5"],
+    correctAnswer: "!"
   },
   {
     question: "Where should the description meta tag be placed in an HTML file?",
@@ -42,14 +42,9 @@ export const quizQuestions_5 = {
     correctAnswer: "<b>",
   },
   {
-    question: "What does the 'Save As...' command in VS Code do?",
-    choices: [
-      "Renames the current file",
-      "Creates a new file with a different name",
-      "Saves the current file with a new format",
-      "Deletes the current file and creates a new one"
-    ],
-    correctAnswer: "Creates a new file with a different name",
+    question: "In GitHub Pages, what is the recommended name for the home page of a website?",
+    choices: ["main.html", "home.html", "index.html", "default.html"],
+    correctAnswer: "index.html"
   },
   {
     question: "Which of the following statements is true about HTML comments?",
@@ -62,14 +57,9 @@ export const quizQuestions_5 = {
     correctAnswer: "They begin with <!-- and end with -->",
   },
   {
-    question: "What is the correct way to display an HTML file in a web browser?",
-    choices: [
-      "Right-click and choose 'Open with VS Code'",
-      "Double-click the file in File Explorer or Finder",
-      "Upload the file to GitHub",
-      "Right-click and choose 'Run as Administrator'"
-    ],
-    correctAnswer: "Double-click the file in File Explorer or Finder",
+    question: "Which symbol is used to separate folder names in a web address?",
+    choices: ["Backslash (\\)", "Forward slash (/)", "Hyphen (-)", "Underscore (_)"],
+    correctAnswer: "Forward slash (/)"
   },
 ],
 }

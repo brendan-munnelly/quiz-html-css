@@ -7,34 +7,34 @@ export const quizQuestions_2 = {
     correctAnswer: "A project location for hosting code",
   },
   {
-    question: "Which part of your GitHub web address is determined by your username?",
+    question: "Which part of your GitHub Pages web address is determined by your GitHub username?",
     choices: [
-      "The 'github.com' portion",
-      "The 'github.io' portion",
+      "The 'github.com' part",
+      "The 'github.io' part",
       "The first part, before 'github.io'",
       "The last part, after the domain"
     ],
     correctAnswer: "The first part, before 'github.io'",
   },
   {
-    question: "What is the first step to creating a GitHub account?",
-    choices: [
-      "Choosing a username",
-      "Entering your email and password",
-      "Creating a repository",
-      "Installing GitHub Desktop"
-    ],
-    correctAnswer: "Entering your email and password",
+    question: "What icon can you click to always return to your GitHub Dashboard?",
+      choices: [
+        "Home icon",
+        "User profile icon",
+        "Octocat icon",
+        "Dashboard icon"
+      ],
+      correctAnswer: "Octocat icon"
   },
   {
-    question: "Why is your GitHub username important?",
+    question: "Why is your GitHub username important with GitHub Pages?",
     choices: [
-      "It determines your GitHub repo name",
+      "It forms part of your password",
       "It is your login credential",
-      "It forms part of your GitHub web address",
+      "It forms the first part of your GitHub Pages web address",
       "It must match your email"
     ],
-    correctAnswer: "It forms part of your GitHub web address",
+    correctAnswer: "It forms the first part of your GitHub Pages web address",
   },
   {
     question: "Which branch in GitHub is used to host websites with GitHub Pages?",
@@ -62,24 +62,24 @@ export const quizQuestions_2 = {
     correctAnswer: "Select 'Add a README file' during repository creation",
   },
   {
-    question: "Which GitHub account option is free for users?",
+    question: "What is NOT true about GitHub usernames?",
     choices: [
-      "Pro",
-      "Team",
-      "Enterprise",
-      "Free"
+      "They can be changed later",
+      "They must be the same as your email address",
+      "They form the first part of your GitHub Pages web address",
+      "They should be easy for others to remember"
     ],
-    correctAnswer: "Free",
+    correctAnswer: "They must be the same as your email address"
   },
   {
-    question: "What must you do before using GitHub features like creating or uploading files?",
+    question: "Whicjh option should you select to ensure others can view your web pages?",
     choices: [
-      "Verify your email address",
-      "Set up GitHub Pages",
-      "Create a repository",
-      "Install Git"
+      "Private repository",
+      "Public repository",
+      "Shared repository",
+      "Open-source license"
     ],
-    correctAnswer: "Verify your email address",
+    correctAnswer: "Public repository"
   },
   {
     question: "Which of the following is a valid GitHub Pages web address?",

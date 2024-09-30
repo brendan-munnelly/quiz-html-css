@@ -1,14 +1,14 @@
 export const quizQuestions_3 = {
   questions: [
     {
-    question: "What is Microsoft Visual Studio Code (VS Code) primarily used for?",
+    question: "What do frontend developers primarily use VS Code for?",
     choices: [
       "Editing images",
-      "Creating web pages and stylesheets",
+      "Creating web pages, stylesheets, and JavaScript files",
       "Developing mobile apps",
       "Designing databases"
     ],
-    correctAnswer: "Creating web pages and stylesheets",
+    correctAnswer: "Creating web pages, stylesheets, and JavaScript files",
   },
   {
     question: "Which file types are commonly edited using VS Code for web development?",
@@ -16,24 +16,19 @@ export const quizQuestions_3 = {
     correctAnswer: "HTML and CSS files",
   },
   {
-    question: "Which setting in VS Code allows you to control the automatic closing of HTML tags?",
-    choices: [
-      "Font size",
-      "Word wrap",
-      "HTML: Auto Closing Tags",
-      "Match Brackets"
-    ],
-    correctAnswer: "HTML: Auto Closing Tags",
+    question: "What type of files are HTML and CSS?",
+    choices: ["Binary files", "Image files", "Text files", "Executable files"],
+    correctAnswer: "Text files",
   },
   {
-    question: "How can you increase the font size in VS Code?",
-    choices: [
-      "Edit the HTML file",
-      "Change the font size in the user settings",
-      "Install an extension",
-      "Change the operating system settings"
-    ],
-    correctAnswer: "Change the font size in the user settings",
+    question: "Which two GitHub Copilot extensions are recommended for installation in VS Code?",
+      choices: [
+        "GitHub Copilot and GitHub Actions",
+        "GitHub Copilot and GitHub Desktop",
+        "GitHub Copilot and GitHub Copilot Chat",
+        "GitHub Copilot and GitHub Pages"
+      ],
+      correctAnswer: "GitHub Copilot and GitHub Copilot Chat"
   },
   {
     question: "What is the purpose of the Live Server extension in VS Code?",

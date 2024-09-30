@@ -30,7 +30,7 @@ export const quizQuestions_12 = {
         correctAnswer: "#FF0000",
       },
       {
-        question: "Why are RGB values typically used over colour names in web design?",
+        question: "Why are RGB or hex values typically used over colour names in web design?",
         choices: [
           "Because there are limited options for colour names.",
           "Because RGB values are easier to remember.",

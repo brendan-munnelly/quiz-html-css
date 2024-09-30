@@ -11,29 +11,24 @@ export const quizQuestions_10 = {
     correctAnswer: "Empty space around elements on a web page",
   },
   {
-    question: "What is the alternative term for white space in modern web design?",
+    question: "What does the term 'assets' refer to in frontend development?",
     choices: [
-      "Empty space",
-      "Neutral space",
-      "Negative space",
-      "Void space"
+      "Only image files",
+      "Files used by web pages that are not HTML files",
+      "JavaScript files exclusively",
+      "The main HTML files of a website"
     ],
-    correctAnswer: "Negative space",
+    correctAnswer: "Files used by web pages that are not HTML files"
   },
   {
-    question: "What is the main purpose of negative space in web design?",
-    choices: [
-      "To fit more content on a page",
-      "To make text and images more inviting to read",
-      "To increase website loading speed",
-      "To highlight advertisements"
-    ],
-    correctAnswer: "To make text and images more inviting to read",
+    question: "What character is used to separate a CSS property from its value?",
+      choices: ["Semicolon (;)", "Colon (:)", "Equals sign (=)", "Hyphen (-)"],
+      correctAnswer: "Colon (:)"
   },
   {
-    question: "Which CSS property is used to create negative space around elements?",
+    question: "Which CSS property is typically used to create negative space around elements?",
     choices: [
-      "margin",
+      "height",
       "padding",
       "border",
       "width"
@@ -43,7 +38,7 @@ export const quizQuestions_10 = {
   {
     question: "How would you add padding around the entire body of a web page using CSS?",
     choices: [
-      "body { margin: 10px; }",
+      "body { text-align: center; }",
       "body { padding: 4% 20%; }",
       "body { width: 100%; }",
       "body { border-spacing: 20px; }"
@@ -81,14 +76,9 @@ export const quizQuestions_10 = {
     correctAnswer: "It removes the margin at the bottom of the last child element within a section",
   },
   {
-    question: "Which of the following resources can help you learn more about white space in web design?",
-    choices: [
-      "CSS Grid Layout Documentation",
-      "A Guide to Effective Use of White Space in Web Design",
-      "JavaScript Frameworks for Web Development",
-      "Best Fonts for Websites"
-    ],
-    correctAnswer: "A Guide to Effective Use of White Space in Web Design",
+    question: "Which character is used to separate multiple CSS rules within a declaration block?",
+      choices: ["Comma (,)", "Period (.)", "Semicolon (;)", "Slash (/)"],
+      correctAnswer: "Semicolon (;)"
   },
   {
     question: "What does the CSS padding property do?",
