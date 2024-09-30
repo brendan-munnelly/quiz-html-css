@@ -291,19 +291,19 @@ section.home-section h2 {
   text-align: center;
 }
 
-
-
-
-
 section.home-section .two-cols { display: flex; flex-wrap: wrap }
 
 section.home-section .two-cols > * { flex: 1; }
+
+@media (max-width: 767px) { 
+  section.home-section .two-cols { display: block }
+}
 
 section.home-section p { 
   color: #fff;
   font-size: var(--font-size-base);
   font-weight: 400;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 section.home-section p b { 
@@ -315,6 +315,16 @@ section.home-section p b {
   font-weight: 700;
   margin-bottom: 20px;
   font-size: calc(var(--font-size-base) * 0.8);
+}
+
+@media (max-width: 767px) { 
+  section.home-section p {
+    font-size: calc(var(--font-size-base) * 1.1);
+  }
+  section.home-section p b { 
+    font-size: calc(var(--font-size-base) * 1);
+    border-radius: 4px;
+  }
 }
 
 section.home-section p a:link, section.home-section p a:visited { 
@@ -344,6 +354,7 @@ section.home-section p a:hover, section.home-section p a:active {
   font-weight: 500;
   margin: 0;
   letter-spacing: 1px;
+  padding: 0 20px
 }
 
 main {
