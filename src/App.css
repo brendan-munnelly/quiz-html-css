@@ -376,3 +376,10 @@ main {
   color: #fff;
   letter-spacing: 1px;
 }
+
+a.home_link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: solid 1px #fff;
+  transition: all 0.2s ease-in-out;
+}

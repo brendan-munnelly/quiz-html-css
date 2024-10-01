@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer">
-      <p><b>munnelly.com</b>/frontend</p>
+      <p><a className="home_link" href="https://munnelly.com/frontend">https://munnelly.com/frontend</a></p>
     </div>
   );
 };
