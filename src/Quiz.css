@@ -41,7 +41,14 @@
   font-weight: 400;
   color: var(--gray-500);
   font-size: calc(var(--font-size-md) * 0.9) 
-}  
+}
+
+.quiz-container .questions-topic {
+  font-weight: 400;
+  color: var(--gray-400);
+  font-size: calc(var(--font-size-md) * 0.9) ;
+  padding-left: 20px
+}
 
 
 .quiz-container h2 {

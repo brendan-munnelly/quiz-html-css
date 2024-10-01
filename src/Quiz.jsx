@@ -37,48 +37,64 @@ const Quiz = () => {
   })
 
   let questions; 
+  let questionsTopic; 
+  
 
   if (quizId === '1') {
       questions = quizQuestions_1.questions; 
+      questionsTopic = 'Web Browsers';
   } 
   else if (quizId === '2') {
       questions = quizQuestions_2.questions; 
+      questionsTopic = 'GitHub Pages';
   }
   else if (quizId === '3') {
     questions = quizQuestions_3.questions; 
+    questionsTopic = 'VS Code';
   }
   else if (quizId === '4') {
     questions = quizQuestions_4.questions; 
+    questionsTopic = 'Folders and Files';
   }
   else if (quizId === '5') {
     questions = quizQuestions_5.questions; 
+    questionsTopic = 'Working with HTML';
   }
   else if (quizId === '6') {
     questions = quizQuestions_6.questions; 
+    questionsTopic = 'Debugging HTML';
   }
   else if (quizId === '7') {
-    questions = quizQuestions_7.questions; 
+    questions = quizQuestions_7.questions;
+    questionsTopic = 'SEO and Web Pages'; 
   }
   else if (quizId === '8') {
     questions = quizQuestions_8.questions; 
+    questionsTopic = 'Container Elements';
   }
   else if (quizId === '9') {
     questions = quizQuestions_9.questions; 
+    questionsTopic = 'Working with CSS';
   }
   else if (quizId === '10') {
     questions = quizQuestions_10.questions; 
+    questionsTopic = 'Negative Spacing';
   }
   else if (quizId === '11') {
     questions = quizQuestions_11.questions; 
+    questionsTopic = 'Media Queries:';
   }
   else if (quizId === '12') {
     questions = quizQuestions_12.questions; 
+    questionsTopic = 'Colour Models';
   }
   else if (quizId === '13') {
     questions = quizQuestions_13.questions; 
+    questionsTopic = 'Updating CSS Colours';
   }
   else if (quizId === '14') {
     questions = quizQuestions_14.questions; 
+    questionsTopic = 'Classes and Custom Properties';
   }
   
   const { question, choices, correctAnswer } = questions[activeQuestion]
@@ -129,7 +145,8 @@ const Quiz = () => {
             <div>
               <div>
                 <span className="active-question-no">{addLeadingZero(activeQuestion + 1)}</span>
-                <span className="total-question"> / {addLeadingZero(questions.length)}</span>
+                <span className="total-question"> / {addLeadingZero(questions.length)}</span> <span className="questions-topic">{ questionsTopic }</span>
+                
               </div>
               <h2>{question}</h2>
               <ul>
