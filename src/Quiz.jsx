@@ -13,6 +13,8 @@ import { quizQuestions_11 } from './data/quizQuestions-11'
 import { quizQuestions_12 } from './data/quizQuestions-12'
 import { quizQuestions_13 } from './data/quizQuestions-13'
 import { quizQuestions_14 } from './data/quizQuestions-14'
+import { quizQuestions_15 } from './data/quizQuestions-15'
+import { quizQuestions_16 } from './data/quizQuestions-16'
 
 import Header from './Header';
 import Footer from './Footer';
@@ -38,7 +40,6 @@ const Quiz = () => {
 
   let questions; 
   let questionsTopic; 
-  
 
   if (quizId === '1') {
       questions = quizQuestions_1.questions; 
@@ -82,7 +83,7 @@ const Quiz = () => {
   }
   else if (quizId === '11') {
     questions = quizQuestions_11.questions; 
-    questionsTopic = 'Media Queries:';
+    questionsTopic = 'Media Queries';
   }
   else if (quizId === '12') {
     questions = quizQuestions_12.questions; 
@@ -95,6 +96,14 @@ const Quiz = () => {
   else if (quizId === '14') {
     questions = quizQuestions_14.questions; 
     questionsTopic = 'Classes and Custom Properties';
+  }
+  else if (quizId === '15') {
+    questions = quizQuestions_15.questions; 
+    questionsTopic = 'Introduction to Images';
+  }
+  else if (quizId === '16') {
+    questions = quizQuestions_16.questions; 
+    questionsTopic = 'Working with Images';
   }
   
   const { question, choices, correctAnswer } = questions[activeQuestion]
