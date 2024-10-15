@@ -15,6 +15,11 @@ import { quizQuestions_13 } from './data/quizQuestions-13'
 import { quizQuestions_14 } from './data/quizQuestions-14'
 import { quizQuestions_15 } from './data/quizQuestions-15'
 import { quizQuestions_16 } from './data/quizQuestions-16'
+import { quizQuestions_17 } from './data/quizQuestions-17'
+import { quizQuestions_18 } from './data/quizQuestions-18'
+import { quizQuestions_19 } from './data/quizQuestions-19'
+import { quizQuestions_20 } from './data/quizQuestions-20'
+import { quizQuestions_21 } from './data/quizQuestions-21'
 
 import Header from './Header';
 import Footer from './Footer';
@@ -106,6 +111,32 @@ const Quiz = () => {
     questionsTopic = 'Working with Images';
   }
   
+  else if (quizId === '17') {
+    questions = quizQuestions_17.questions; 
+    questionsTopic = 'The Box Model';
+}
+else if (quizId === '18') {
+    questions = quizQuestions_18.questions; 
+    questionsTopic = 'Working with Cards';
+}
+else if (quizId === '19') {
+    questions = quizQuestions_19.questions; 
+    questionsTopic = 'Working with Text';
+}
+else if (quizId === '20') {
+    questions = quizQuestions_20.questions; 
+    questionsTopic = 'The Font Stack';
+}
+else if (quizId === '21') {
+    questions = quizQuestions_21.questions; 
+    questionsTopic = 'Google Fonts';
+}
+
+
+
+
+
+
   const { question, choices, correctAnswer } = questions[activeQuestion]
   
   const onClickNext = () => {
