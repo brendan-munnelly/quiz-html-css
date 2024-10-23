@@ -1,69 +1,104 @@
 export const quizQuestions_17 = {
     questions: [
       {
-        question: 'Which HTML tag is used to insert an image into a web page?',
-        choices: ['<picture>', '<img>', '<figure>', '<image>'],
-        correctAnswer: '<img>',
-      },
-      {
-        question: 'Which attribute is used to specify the path to the image file?',
-        choices: ['alt', 'src', 'href', 'path'],
-        correctAnswer: 'src',
-      },
-      {
-        question: 'What does the "alt" attribute provide for an image?',
+        question: "What is the 'box model' in CSS?",
         choices: [
-          'Alternative text for when the image cannot be displayed',
-          'Source link for the image',
-          'The file size of the image',
-          'The width of the image',
+          "A concept that describes the positioning and styling of HTML elements.",
+          "A layout tool for placing images on a web page.",
+          "A tool for debugging CSS code.",
+          "A framework for adding interactive elements to a web page."
         ],
-        correctAnswer: 'Alternative text for when the image cannot be displayed',
+        correctAnswer: "A concept that describes the positioning and styling of HTML elements."
       },
       {
-        question: 'What happens if the "alt" attribute is missing from an image tag?',
+        question: "Which of the following components is NOT part of the box model?",
         choices: [
-          'The image won’t be displayed',
-          'The web page is considered "invalid"',
-          'The image will not load',
-          'The web page will crash',
+          "margin",
+          "padding",
+          "background",
+          "border"
         ],
-        correctAnswer: 'The web page is considered "invalid"',
+        correctAnswer: "background"
       },
       {
-        question: 'Which image format is typically used for photographs?',
-        choices: ['JPG', 'PNG', 'SVG', 'GIF'],
-        correctAnswer: 'JPG',
-      },
-      {
-        question: 'Which image format supports transparent backgrounds?',
-        choices: ['JPG', 'BMP', 'PNG', 'GIF'],
-        correctAnswer: 'PNG',
-      },
-      {
-        question: 'Which CSS property is used to add a drop shadow effect to images?',
-        choices: ['box-shadow', 'border-radius', 'opacity', 'filter'],
-        correctAnswer: 'box-shadow',
-      },
-      {
-        question: 'Which CSS property is used to give images rounded corners?',
-        choices: ['border-style', 'border-radius', 'outline', 'corner-style'],
-        correctAnswer: 'border-radius',
-      },
-      {
-        question: 'What online tool can be used to remove the background from an image?',
-        choices: ['remove.bg', 'Photoshop', 'GIMP', 'Inkscape'],
-        correctAnswer: 'remove.bg',
-      },
-      {
-        question: 'What should you include in the <img> tag to make your website accessible?',
+        question: "What is the purpose of the <div> tag in HTML?",
         choices: [
-          'A long description of the image in the text content',
-          'A large image size for better quality',
-          'The "alt" attribute with descriptive text',
-          'A border around the image',
+          "To create a hyperlink",
+          "To style text",
+          "To group elements together",
+          "To create a navigation bar"
         ],
-        correctAnswer: 'The "alt" attribute with descriptive text',
+        correctAnswer: "To group elements together"
+      },
+      {
+        question: "Which CSS property controls the space between the content of an element and its edges?",
+        choices: [
+          "margin",
+          "padding",
+          "border",
+          "outline"
+        ],
+        correctAnswer: "padding"
+      },
+      {
+        question: "What property is used to add space outside the border of an element?",
+        choices: [
+          "padding",
+          "margin",
+          "border",
+          "spacing"
+        ],
+        correctAnswer: "Margin"
+      },
+      {
+        question: "What CSS property can add color, width, and style to the edge of an element?",
+        choices: [
+          "outline",
+          "margin",
+          "padding",
+          "border"
+        ],
+        correctAnswer: "border"
+      },
+      {
+        question: "Which shorthand syntax is correct for applying different padding values to the top, right, bottom, and left sides?",
+        choices: [
+          "padding: 12px 0 32px 0;",
+          "padding: 12px;",
+          "padding: 12px, 0, 32px, 0;",
+          "padding: 12px - 0 - 32px - 0;"
+        ],
+        correctAnswer: "padding: 12px 0 32px 0;"
+      },
+      {
+        question: "How can you remember the order of padding values for the four edges of an element?",
+        choices: [
+          "Left, Right, Top, Bottom",
+          "Bottom, Left, Top, Right",
+          "Top, Right, Bottom, Left",
+          "Top, Left, Right, Bottom"
+        ],
+        correctAnswer: "Top, Right, Bottom, Left"
+      },
+      {
+        question: "Which part of the box model pushes or shoves other elements away from an element?",
+        choices: [
+          "padding",
+          "border",
+          "margin",
+          "content"
+        ],
+        correctAnswer: "margin"
+      },
+      {
+        question: "Which of the following statements about negative margins is TRUE?",
+        choices: [
+          "Negative margins can make elements disappear off the screen.",
+          "Negative margins only work on the left side of elements.",
+          "Negative margins add space around an element.",
+          "Negative margins can change the color of an element."
+        ],
+        correctAnswer: "Negative margins can make elements disappear off the screen."
       },
     ],
   };

@@ -1,70 +1,105 @@
 export const quizQuestions_21 = {
     questions: [
-      {
-        question: 'Which HTML tag is used to insert an image into a web page?',
-        choices: ['<picture>', '<img>', '<figure>', '<image>'],
-        correctAnswer: '<img>',
-      },
-      {
-        question: 'Which attribute is used to specify the path to the image file?',
-        choices: ['alt', 'src', 'href', 'path'],
-        correctAnswer: 'src',
-      },
-      {
-        question: 'What does the "alt" attribute provide for an image?',
-        choices: [
-          'Alternative text for when the image cannot be displayed',
-          'Source link for the image',
-          'The file size of the image',
-          'The width of the image',
+        {
+            question: "What is the first step in using Google Fonts on a web page?",
+            choices: [
+                "Update your CSS with the font-family name",
+                "Copy the HTML code to the <head> section",
+                "Select the font on the Google Fonts website",
+                "Download the font to your computer"
+            ],
+            correctAnswer: "Select the font on the Google Fonts website"
+        },
+        {
+            question: "Which section of your HTML file should contain the Google Fonts link?",
+            choices: [
+                "<body>",
+                "<footer>",
+                "<header>",
+                "<head>"
+            ],
+            correctAnswer: "<head>"
+        },
+        {
+            question: "What purpose does the fallback font serve in the font-family property?",
+            choices: [
+                "It specifies a default font if the chosen Google Font fails to load",
+                "It provides a backup color for the text",
+                "It enhances the font styling options",
+                "It makes text bold if the main font is unavailable"
+            ],
+            correctAnswer: "It specifies a default font if the chosen Google Font fails to load"
+        },
+        {
+            question: "How are Google Font names formatted in the CSS file?",
+            choices: [
+                "With double quotation marks",
+                "Without quotation marks",
+                "With single quotation marks",
+                "In italics"
+            ],
+            correctAnswer: "With single quotation marks"
+        },
+        {
+            question: "What font-family value is typically used as a fallback for a sans-serif font?",
+            choices: [
+                "serif",
+                "cursive",
+                "sans-serif",
+                "monospace"
+            ],
+            correctAnswer: "sans-serif"
+        },
+        {
+            question: "How many steps are involved in linking a Google Font to a web page?",
+            choices: [
+                "One",
+                "Two",
+                "Three",
+                "Four"
+            ],
+            correctAnswer: "Three"
+        },
+        {
+            question: "What must be added to the CSS file after linking the Google Font in the HTML file?",
+            choices: [
+                "A class selector for the font",
+                "A comment describing the font",
+                "The font name in the font-family property",
+                "An alt attribute for the font"
+            ],
+            correctAnswer: "The font name in the font-family property"
+        },
+        {
+            question: "Why is a fallback font included when specifying Google Fonts in CSS?",
+            choices: [
+                "To ensure faster loading times",
+                "To provide a backup in case of no internet connection",
+                "To offer more font style options",
+                "To match the background color"
+            ],
+            correctAnswer: "To provide a backup in case of no internet connection"
+        },
+        {
+            question: "Which of the following is NOT required to use Google Fonts?",
+            choices: [
+                "Selecting font styles and weights",
+                "Downloading font files to your computer",
+                "Copying the embed code to the <head>",
+                "Adding font-family to the CSS file"
+            ],
+            correctAnswer: "Downloading font files to your computer"
+        },
+        {
+            question: "Where can you find Google Fonts to use for your website?",
+            choices: [
+                "https://fonts.google.com",
+                "https://googlefonts.com",
+                "https://fonts.google.co",
+                "https://googledesignfonts.com"
+            ],
+            correctAnswer: "https://fonts.google.com"
+          },
         ],
-        correctAnswer: 'Alternative text for when the image cannot be displayed',
-      },
-      {
-        question: 'What happens if the "alt" attribute is missing from an image tag?',
-        choices: [
-          'The image won’t be displayed',
-          'The web page is considered "invalid"',
-          'The image will not load',
-          'The web page will crash',
-        ],
-        correctAnswer: 'The web page is considered "invalid"',
-      },
-      {
-        question: 'Which image format is typically used for photographs?',
-        choices: ['JPG', 'PNG', 'SVG', 'GIF'],
-        correctAnswer: 'JPG',
-      },
-      {
-        question: 'Which image format supports transparent backgrounds?',
-        choices: ['JPG', 'BMP', 'PNG', 'GIF'],
-        correctAnswer: 'PNG',
-      },
-      {
-        question: 'Which CSS property is used to add a drop shadow effect to images?',
-        choices: ['box-shadow', 'border-radius', 'opacity', 'filter'],
-        correctAnswer: 'box-shadow',
-      },
-      {
-        question: 'Which CSS property is used to give images rounded corners?',
-        choices: ['border-style', 'border-radius', 'outline', 'corner-style'],
-        correctAnswer: 'border-radius',
-      },
-      {
-        question: 'What online tool can be used to remove the background from an image?',
-        choices: ['remove.bg', 'Photoshop', 'GIMP', 'Inkscape'],
-        correctAnswer: 'remove.bg',
-      },
-      {
-        question: 'What should you include in the <img> tag to make your website accessible?',
-        choices: [
-          'A long description of the image in the text content',
-          'A large image size for better quality',
-          'The "alt" attribute with descriptive text',
-          'A border around the image',
-        ],
-        correctAnswer: 'The "alt" attribute with descriptive text',
-      },
-    ],
-  };
-  
+      };
+    

@@ -1,70 +1,70 @@
 export const quizQuestions_18 = {
     questions: [
       {
-        question: 'Which HTML tag is used to insert an image into a web page?',
-        choices: ['<picture>', '<img>', '<figure>', '<image>'],
-        correctAnswer: '<img>',
-      },
-      {
-        question: 'Which attribute is used to specify the path to the image file?',
-        choices: ['alt', 'src', 'href', 'path'],
-        correctAnswer: 'src',
-      },
-      {
-        question: 'What does the "alt" attribute provide for an image?',
-        choices: [
-          'Alternative text for when the image cannot be displayed',
-          'Source link for the image',
-          'The file size of the image',
-          'The width of the image',
-        ],
-        correctAnswer: 'Alternative text for when the image cannot be displayed',
-      },
-      {
-        question: 'What happens if the "alt" attribute is missing from an image tag?',
-        choices: [
-          'The image won’t be displayed',
-          'The web page is considered "invalid"',
-          'The image will not load',
-          'The web page will crash',
-        ],
-        correctAnswer: 'The web page is considered "invalid"',
-      },
-      {
-        question: 'Which image format is typically used for photographs?',
-        choices: ['JPG', 'PNG', 'SVG', 'GIF'],
-        correctAnswer: 'JPG',
-      },
-      {
-        question: 'Which image format supports transparent backgrounds?',
-        choices: ['JPG', 'BMP', 'PNG', 'GIF'],
-        correctAnswer: 'PNG',
-      },
-      {
-        question: 'Which CSS property is used to add a drop shadow effect to images?',
-        choices: ['box-shadow', 'border-radius', 'opacity', 'filter'],
-        correctAnswer: 'box-shadow',
-      },
-      {
-        question: 'Which CSS property is used to give images rounded corners?',
-        choices: ['border-style', 'border-radius', 'outline', 'corner-style'],
-        correctAnswer: 'border-radius',
-      },
-      {
-        question: 'What online tool can be used to remove the background from an image?',
-        choices: ['remove.bg', 'Photoshop', 'GIMP', 'Inkscape'],
-        correctAnswer: 'remove.bg',
-      },
-      {
-        question: 'What should you include in the <img> tag to make your website accessible?',
-        choices: [
-          'A long description of the image in the text content',
-          'A large image size for better quality',
-          'The "alt" attribute with descriptive text',
-          'A border around the image',
-        ],
-        correctAnswer: 'The "alt" attribute with descriptive text',
-      },
+            question: "What HTML tag is commonly used to create a card in a webpage?",
+            choices: ["<span>", "<div>", "<section>", "<card>"],
+            correctAnswer: "<div>"
+          },
+          {
+            question: "What CSS property would you use to add space inside a card element?",
+            choices: ["margin", "padding", "border", "width"],
+            correctAnswer: "padding"
+          },
+          {
+            question: "Which CSS property defines the thickness of a card's border?",
+            choices: ["border-radius", "border-width", "border-color", "margin"],
+            correctAnswer: "border-width"
+          },
+          {
+            question: "What is the purpose of a card in web design?",
+            choices: [
+              "To contain small blocks of content",
+              "To create headers",
+              "To add buttons",
+              "To structure navigation menus"
+            ],
+            correctAnswer: "To contain small blocks of content"
+          },
+          {
+            question: "Which of the following CSS properties adds a shadow effect?",
+            choices: ["border", "box-shadow", "text-shadow", "opacity"],
+            correctAnswer: "box-shadow"
+          },
+          {
+            question: "How can you apply different visual styles to multiple cards?",
+            choices: [
+              "Use different HTML tags",
+              "Assign unique classes to each card",
+              "Use inline CSS only",
+              "Apply CSS to <body>"
+            ],
+            correctAnswer: "Assign unique classes to each card"
+          },
+          {
+            question: "What CSS property would you use to create rounded corners on a card?",
+            choices: ["border", "border-radius", "padding", "margin"],
+            correctAnswer: "border-radius"
+          },
+          {
+            question: "What property would you use to set the space outside the card element?",
+            choices: ["padding", "margin", "border", "width"],
+            correctAnswer: "margin"
+          },
+          {
+            question: "Which CSS rule applies only to child elements of a specific class?",
+            choices: [
+              ".classname h3",
+              "h3.classname",
+              "h3, .classname",
+              ".classname, h3"
+            ],
+            correctAnswer: ".classname h3"
+          },
+          {
+            question: "What CSS property would you use to set the color of text inside a card?",
+            choices: ["color", "background-color", "text-align", "font-family"],
+            correctAnswer: "color"
+          },
     ],
   };
   
