@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # quiz-html-css
 # quiz-dorset
 # quiz-dorset
+# quiz-dorset
