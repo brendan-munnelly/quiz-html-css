@@ -48,55 +48,55 @@ const Quiz = () => {
 
   if (quizId === '1') {
       questions = quizQuestions_1.questions; 
-      questionsTopic = 'Web Browsers';
+      questionsTopic = 'Adding JavaScript to web pages';
   } 
   else if (quizId === '2') {
       questions = quizQuestions_2.questions; 
-      questionsTopic = 'GitHub Pages';
+      questionsTopic = 'Variables and literals';
   }
   else if (quizId === '3') {
     questions = quizQuestions_3.questions; 
-    questionsTopic = 'VS Code';
+    questionsTopic = 'Working with strings';
   }
   else if (quizId === '4') {
     questions = quizQuestions_4.questions; 
-    questionsTopic = 'Folders and Files';
+    questionsTopic = 'Working with numbers';
   }
   else if (quizId === '5') {
     questions = quizQuestions_5.questions; 
-    questionsTopic = 'Working with HTML';
+    questionsTopic = 'Debugging HTML';
   }
   else if (quizId === '6') {
     questions = quizQuestions_6.questions; 
-    questionsTopic = 'Debugging HTML';
+    questionsTopic = 'Container Elements';
   }
   else if (quizId === '7') {
     questions = quizQuestions_7.questions;
-    questionsTopic = 'SEO and Web Pages'; 
+    questionsTopic = 'Working with CSS'; 
   }
   else if (quizId === '8') {
     questions = quizQuestions_8.questions; 
-    questionsTopic = 'Container Elements';
+    questionsTopic = 'Function declarations';
   }
   else if (quizId === '9') {
     questions = quizQuestions_9.questions; 
-    questionsTopic = 'Working with CSS';
+    questionsTopic = 'Anonymous functions';
   }
   else if (quizId === '10') {
     questions = quizQuestions_10.questions; 
-    questionsTopic = 'Negative Spacing';
+    questionsTopic = 'Arrow functions';
   }
   else if (quizId === '11') {
     questions = quizQuestions_11.questions; 
-    questionsTopic = 'Media Queries';
+    questionsTopic = 'Classes and Custom Properties';
   }
   else if (quizId === '12') {
     questions = quizQuestions_12.questions; 
-    questionsTopic = 'Colour Models';
+    questionsTopic = 'Introduction to Images';
   }
   else if (quizId === '13') {
     questions = quizQuestions_13.questions; 
-    questionsTopic = 'Updating CSS Colours';
+    questionsTopic = 'Working with Images';
   }
   else if (quizId === '14') {
     questions = quizQuestions_14.questions; 

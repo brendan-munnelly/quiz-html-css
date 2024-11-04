@@ -1,103 +1,54 @@
 export const quizQuestions_12 = {
   questions: [
     {
-        question: "Which of the following is NOT one of the main colour systems used in web design?",
-        choices: [
-          "RGB values",
-          "Hex codes",
-          "CMYK codes",
-          "Colour names"
-        ],
-        correctAnswer: "CMYK codes",
-      },
-      {
-        question: "What does RGB in the RGB colour system stand for?",
-        choices: [
-          "Red, Green, Blue",          "Red, Grey, Black",
-          "Red, Green, Brown",
-          "Rose, Green, Blue"
-        ],
-        correctAnswer: "Red, Green, Blue",
-      },
-      {
-        question: "Which of the following is a valid hex code for the colour red?",
-        choices: [
-          "#FF0000",
-          "#00FF00",
-          "#0000FF",
-          "#FFFF00"
-        ],
-        correctAnswer: "#FF0000",
-      },
-      {
-        question: "Why are RGB or hex values typically used over colour names in web design?",
-        choices: [
-          "Because there are limited options for colour names.",
-          "Because RGB values are easier to remember.",
-          "Because colour names are case-sensitive.",
-          "Because RGB values are always displayed in uppercase."
-        ],
-        correctAnswer: "Because there are limited options for colour names.",
-      },
-      {
-        question: "Which of the following is a benefit of using hex codes in CSS?",
-        choices: [
-          "They allow for a wider range of colours than colour names.",
-          "They are easier to type than RGB values.",
-          "They take up less space in a stylesheet.",
-          "They automatically optimize for accessibility."
-        ],
-        correctAnswer: "They allow for a wider range of colours than colour names.",
-      },
-      {
-        question: "How many colours can be represented using hex codes?",
-        choices: [
-          "147 colours",
-          "16 million colours",
-          "1,000 colours",
-          "255 colours"
-        ],
-        correctAnswer: "16 million colours",
-      },
-      {
-        question: "Which of the following CSS properties is used to change the text colour of an element?",
-        choices: [
-          "background-color",
-          "text-color",
-          "color",
-          "font-color"
-        ],
-        correctAnswer: "color",
-      },
-      {
-        question: "What does the hex code #000000 represent in the hex colour system?",
-        choices: [
-          "White",
-          "Black",
-          "Blue",
-          "Red"
-        ],
-        correctAnswer: "Black",
-      },
-      {
-        question: "Which CSS colour system uses decimal numbers between 0 and 255 for each colour channel?",
-        choices: [
-          "Colour name system",
-          "Hex code system",
-          "RGB system",
-          "HSL system"
-        ],
-        correctAnswer: "RGB system",
-      },
-      {
-        question: "What is the minimum contrast ratio recommended by WebAIM for normal text on web pages?",
-        choices: [
-          "2.0:1",
-          "3.0:1",
-          "4.5:1",
-          "6.0:1"
-        ],
-        correctAnswer: "4.5:1",
-      }
-],
-}
+      question: 'What type of image is made up of tiny dots that can become blurry when resized?',
+      choices: ['Vector image', 'Bitmap image', 'SVG image', 'Drawing image'],
+      correctAnswer: 'Bitmap image',
+    },
+    {
+      question: 'Which format is best for displaying photographs with lots of colours and gradients?',
+      choices: ['PNG', 'GIF', 'JPG', 'SVG'],
+      correctAnswer: 'JPG',
+    },
+    {
+      question: 'Which type of image contains mathematical formulas to create lines and shapes?',
+      choices: ['PNG image', 'Bitmap image', 'Vector image', 'JPG image'],
+      correctAnswer: 'Vector image',
+    },
+    {
+      question: 'What is a unique feature of PNG format compared to JPG?',
+      choices: ['Smaller file size', 'Can have transparent backgrounds', 'Better for gradients', 'Supports only black and white images'],
+      correctAnswer: 'Can have transparent backgrounds',
+    },
+    {
+      question: 'Which bitmap image format is ideal for charts, diagrams, and logos?',
+      choices: ['JPG', 'SVG', 'PNG', 'Bitmap'],
+      correctAnswer: 'PNG',
+    },
+    {
+      question: 'Which application is commonly used to create and edit vector images?',
+      choices: ['Adobe Illustrator', 'Microsoft Paint', 'GIMP', 'Pexels'],
+      correctAnswer: 'Adobe Illustrator',
+    },
+    {
+      question: 'Which website is known for offering copyright-free, stylized photography?',
+      choices: ['Pexels', 'Wikimedia Commons', 'KaboomPics', 'Pixabay'],
+      correctAnswer: 'KaboomPics',
+    },
+    {
+      question: 'Which online library includes vintage photography and classic works of art?',
+      choices: ['Pexels', 'Wikimedia Commons', 'Unsplash', 'KaboomPics'],
+      correctAnswer: 'Wikimedia Commons',
+    },
+    {
+      question: 'Which format would result in larger file sizes for photographs?',
+      choices: ['PNG', 'JPG', 'GIF', 'Vector'],
+      correctAnswer: 'PNG',
+    },
+    {
+      question: 'Which of the following is an open-source collection of drawings?',
+      choices: ['Pexels', 'Undraw', 'Pixabay', 'Unsplash'],
+      correctAnswer: 'Undraw',
+    },
+  ],
+};

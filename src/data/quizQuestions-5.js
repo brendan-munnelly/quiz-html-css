@@ -1,65 +1,99 @@
-
 export const quizQuestions_5 = {
   questions: [
-    {
-    question: "What are the two main parts of a basic HTML file?",
-    choices: ["<header> and <footer>", "<head> and <body>", "<div> and <span>", "<section> and <article>"],
-    correctAnswer: "<head> and <body>",
-  },
   {
-    question: "Which tool offers a shortcut to generate basic HTML structure in VS Code?",
-    choices: ["Prettier", "Emmet", "Live Server", "GitHub"],
-    correctAnswer: "Emmet",
-  },
-  {
-    question: "Which VS Code shortcut can you use to quickly add the basic HTML structure to a new file?",
-    choices: ["html!", "!html", "!", "html5"],
-    correctAnswer: "!"
-  },
-  {
-    question: "Where should the description meta tag be placed in an HTML file?",
-    choices: ["Inside the <body> tag", "Inside the <footer> tag", "Inside the <head> tag", "Inside the <nav> tag"],
-    correctAnswer: "Inside the <head> tag",
-  },
-  {
-    question: "What is the correct format for creating a hyperlink in HTML?",
+     question: "What is 'marking-up' in HTML?",
     choices: [
-      "<a link='...'>Click here</a>",
-      "<a href='...'>Click here</a>",
-      "<link href='...'>Click here</link>",
-      "<a src='...'>Click here</a>"
+      "Adding links to a web page",
+      "Adding HTML tags to web page content",
+      "Creating a folder for HTML files",
+      "Running scripts in a browser"
     ],
-    correctAnswer: "<a href='...'>Click here</a>",
+    correctAnswer: "Adding HTML tags to web page content",
   },
   {
-    question: "What is the correct HTML tag to mark up a paragraph?",
-    choices: ["<p>", "<h1>", "<div>", "<span>"],
-    correctAnswer: "<p>",
-  },
-  {
-    question: "Which HTML tag pair is used for bold text?",
-    choices: ["<strong>", "<em>", "<b>", "<bold>"],
-    correctAnswer: "<b>",
-  },
-  {
-    question: "In GitHub Pages, what is the recommended name for the home page of a website?",
-    choices: ["main.html", "home.html", "index.html", "default.html"],
-    correctAnswer: "index.html"
-  },
-  {
-    question: "Which of the following statements is true about HTML comments?",
+    question: "What is the purpose of the HTMLHint extension in VS Code?",
     choices: [
-      "They are displayed in the web browser",
-      "They begin with <!-- and end with -->",
-      "They can only be one line long",
-      "They must appear in the <body> section"
+      "To format HTML files",
+      "To identify and correct HTML mark-up errors",
+      "To create new HTML tags",
+      "To upload files to GitHub"
     ],
-    correctAnswer: "They begin with <!-- and end with -->",
+    correctAnswer: "To identify and correct HTML mark-up errors",
   },
   {
-    question: "Which symbol is used to separate folder names in a web address?",
-    choices: ["Backslash (\\)", "Forward slash (/)", "Hyphen (-)", "Underscore (_)"],
-    correctAnswer: "Forward slash (/)"
+    question: "How do you install the HTMLHint extension in VS Code?",
+    choices: [
+      "By using the terminal to install the extension",
+      "By downloading it from the VS Code website",
+      "By searching for 'HTMLHint' in the Extensions view and clicking Install",
+      "By enabling it in the VS Code settings"
+    ],
+    correctAnswer: "By searching for 'HTMLHint' in the Extensions view and clicking Install",
+  },
+  {
+    question: "How many <title> tags should be in the <head> of an HTML document?",
+    choices: [
+      "Exactly one", 
+      "As many as needed", 
+      "At least one", 
+      "None"
+    ],
+    correctAnswer: "Exactly one"
+   },
+  {
+    question: "How many <h1> tags should be in the <body> of an HTML document?",
+      choices: ["As many as needed", "At least one", "Exactly one", "None"],
+      correctAnswer: "Exactly one"
+  },
+  {
+    question: "What is the function of closing tags in HTML?",
+    choices: [
+      "They are optional in all cases",
+      "They help specify the end of an HTML element",
+      "They can be omitted if the element is empty",
+      "They allow HTML elements to load faster"
+    ],
+    correctAnswer: "They help specify the end of an HTML element",
+  },
+  {
+    question: "What does HTMLHint do when you open a web page with errors in VS Code?",
+    choices: [
+      "Automatically corrects the errors",
+      "Shows a warning with the number of errors and their line numbers",
+      "Deletes invalid HTML tags",
+      "Highlights the errors in the browser"
+    ],
+    correctAnswer: "Shows a warning with the number of errors and their line numbers",
+  },
+  {
+    question: "What is the correct way to save an HTML file when using the web browser 'Save as...' command?",
+    choices: [
+      "Web Page, HTML Only",
+      "Web Page, complete",
+      "Text Document",
+      "All Files"
+    ],
+    correctAnswer: "Web Page, HTML Only"
+  },
+  {
+    question: "When uploading your work to Github, what method must be used if you're uploading both files and folders?",
+    choices: [
+      "File select method",
+      "Drag-and-drop method",
+      "Command line interface",
+      "GitHub desktop application"
+    ],
+    correctAnswer: "Drag-and-drop method"
+  },
+  {
+    question: "What is the correct way to ensure your web page is published on GitHub?",
+    choices: [
+      "Use a local file server",
+      "Commit changes in your repository and wait a few minutes",
+      "Send an email to GitHub support",
+      "Only upload HTML files and avoid CSS or JS files"
+    ],
+    correctAnswer: "Commit changes in your repository and wait a few minutes",
   },
 ],
 }

@@ -1,84 +1,104 @@
 export const quizQuestions_8 = {
-  questions: [
-  {
-    question: "What is the primary purpose of wireframes in web design?",
-    choices: [
-      "To create high-fidelity mockups",
-      "To establish a rough layout of a web page",
-      "To add interactive elements to the page",
-      "To optimize a website for SEO"
-    ],
-    correctAnswer: "To establish a rough layout of a web page",
-  },
-  {
-    question: "Which of the following is a high-fidelity mockup used in web design?",
-    choices: ["Wireframe", "Prototype", "Sitemap", "Sketch"],
-    correctAnswer: "Prototype",
-  },
-  {
-    question: "Which HTML tag is used to contain the main content of a web page?",
-    choices: ["<section>", "<main>", "<header>", "<footer>"],
-    correctAnswer: "<main>",
-  },
-  {
-    question: "What is the purpose of the <nav> tag in HTML?",
-    choices: [
-      "To contain the main content of a web page",
-      "To hold navigation links such as menus",
-      "To display the footer content",
-      "To display headings on a page"
-    ],
-    correctAnswer: "To hold navigation links such as menus",
-  },
-  {
-    question: "Which tag should contain the top-level heading and introductory text of a page?",
-    choices: ["<header>", "<nav>", "<section>", "<footer>"],
-    correctAnswer: "<header>",
-  },
-  {
-    question: "How are sections within the <main> tag typically styled differently?",
-    choices: [
-      "By using different HTML tags for each section",
-      "By applying different CSS styles to each <section> container",
-      "By using the <div> tag for each section",
-      "By adding inline styles to the <main> tag"
-    ],
-    correctAnswer: "By applying different CSS styles to each <section> container",
-  },
-  {
-    question: "Which tag typically contains legal and copyright information on a web page?",
-    choices: ["<footer>", "<header>", "<main>", "<nav>"],
-    correctAnswer: "<footer>",
-  },
-  {
-    question: "What is the difference between a wireframe and a prototype?",
-    choices: [
-      "A wireframe is low-fidelity, while a prototype is high-fidelity",
-      "A wireframe is high-fidelity, while a prototype is low-fidelity",
-      "A wireframe is interactive, while a prototype is static",
-      "There is no difference between them"
-    ],
-    correctAnswer: "A wireframe is low-fidelity, while a prototype is high-fidelity",
-  },
-  {
-    question: "How can you generate Lorem Ipsum text in VS Code?",
-    choices: [
-      "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
-      "By typing random characters",
-      "By pressing the Ctrl+L key",
-      "By copying it from the web"
-    ],
-    correctAnswer: "By typing 'lorem' and selecting it from the Emmet Abbreviation menu",
-  },
-  {
-    question: "What is the function of the <section> tag in modern web design?",
-    choices: [
-      "To define a block of navigation links",
-      "To subdivide the <main> content into smaller containers",
-      "To display the footer content",
-      "To add metadata to the page"
-    ],
-    correctAnswer: "To subdivide the <main> content into smaller containers",
-  }
-],
-}
+    questions: [
+        {
+            question: "What happens when a function is declared with the function keyword?",
+            choices: [
+                "It must be called immediately",
+                "It is hoisted and can be called before declaration",
+                "It throws an error if not called immediately",
+                "It can only be called once"
+            ],
+            correctAnswer: "It is hoisted and can be called before declaration"
+        },
+        {
+            question: "Which of the following is NOT a valid function name in JavaScript?",
+            choices: [
+                "calculateTax()",
+                "first-name()",
+                "updateTotal()",
+                "setFontSize()"
+            ],
+            correctAnswer: "first-name()"
+        },
+        {
+            question: "What happens when you pass more arguments than parameters to a function?",
+            choices: [
+                "The function throws an error",
+                "The extra arguments are stored in a special array",
+                "The function ignores the excess arguments",
+                "The function automatically creates new parameters"
+            ],
+            correctAnswer: "The function ignores the excess arguments"
+        },
+        {
+            question: "What is the value of a parameter if no argument is passed to it and no default value is set?",
+            choices: [
+                "null",
+                "undefined",
+                "0",
+                "false"
+            ],
+            correctAnswer: "undefined"
+        },
+        {
+            question: "What is the difference between parameters and arguments in JavaScript functions?",
+            choices: [
+                "They are exactly the same thing",
+                "Parameters are in function declaration, arguments are values passed when calling",
+                "Arguments are in function declaration, parameters are values passed when calling",
+                "Parameters are only for numbers, arguments are for strings"
+            ],
+            correctAnswer: "Parameters are in function declaration, arguments are values passed when calling"
+        },
+        {
+            question: "What happens when a return statement is executed in a function?",
+            choices: [
+                "The function continues to the next line",
+                "The function pauses execution temporarily",
+                "The function stops executing and returns a value",
+                "The function restarts from the beginning"
+            ],
+            correctAnswer: "The function stops executing and returns a value"
+        },
+        {
+            question: "Which statement about function scope is correct?",
+            choices: [
+                "All variables are always global",
+                "Variables declared inside a function are accessible everywhere",
+                "Variables declared inside a function are only accessible within that function",
+                "Function scope only applies to numbers"
+            ],
+            correctAnswer: "Variables declared inside a function are only accessible within that function"
+        },
+        {
+            question: "What is the recommended naming convention for functions in JavaScript?",
+            choices: [
+                "Start with a number",
+                "Use spaces between words",
+                "Start with an imperative verb using camelCase",
+                "Use all capital letters"
+            ],
+            correctAnswer: "Start with an imperative verb using camelCase"
+        },
+        {
+            question: "How can you prevent a function parameter from being undefined if no argument is passed?",
+            choices: [
+                "Use the required keyword",
+                "Add a default value in the parameter",
+                "You cannot prevent it",
+                "Use the mandatory operator"
+            ],
+            correctAnswer: "Add a default value in the parameter"
+        },
+        {
+            question: "Where should function declarations NOT be used?",
+            choices: [
+                "In the global scope",
+                "Inside other functions",
+                "Inside conditionals and loops",
+                "At the top of a file"
+            ],
+            correctAnswer: "Inside conditionals and loops"
+        }
+    ]
+};

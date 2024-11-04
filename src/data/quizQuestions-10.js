@@ -1,94 +1,104 @@
 export const quizQuestions_10 = {
   questions: [
-  {
-    question: "What is negative space in web design?",
-    choices: [
-      "Space filled with background images",
-      "Empty space around elements on a web page",
-      "An area used for advertisements",
-      "Text that is highlighted with colors"
-    ],
-    correctAnswer: "Empty space around elements on a web page",
-  },
-  {
-    question: "What does the term 'assets' refer to in frontend development?",
-    choices: [
-      "Only image files",
-      "Files used by web pages that are not HTML files",
-      "JavaScript files exclusively",
-      "The main HTML files of a website"
-    ],
-    correctAnswer: "Files used by web pages that are not HTML files"
-  },
-  {
-    question: "What character is used to separate a CSS property from its value?",
-      choices: ["Semicolon (;)", "Colon (:)", "Equals sign (=)", "Hyphen (-)"],
-      correctAnswer: "Colon (:)"
-  },
-  {
-    question: "Which CSS property is typically used to create negative space around elements?",
-    choices: [
-      "height",
-      "padding",
-      "border",
-      "width"
-    ],
-    correctAnswer: "padding",
-  },
-  {
-    question: "How would you add padding around the entire body of a web page using CSS?",
-    choices: [
-      "body { text-align: center; }",
-      "body { padding: 4% 20%; }",
-      "body { width: 100%; }",
-      "body { border-spacing: 20px; }"
-    ],
-    correctAnswer: "body { padding: 4% 20%; }",
-  },
-  {
-    question: "Why is negative space important in modern web design?",
-    choices: [
-      "It reduces website file size",
-      "It helps with organizing and separating content visually",
-      "It allows more elements to fit on a page",
-      "It increases the number of links on a page"
-    ],
-    correctAnswer: "It helps with organizing and separating content visually",
-  },
-  {
-    question: "Which container elements might you want to have different negative space settings in modern web design?",
-    choices: [
-      "<p> and <img>",
-      "<nav>, <header>, <section>, <footer>",
-      "<h1> and <h2>",
-      "<div> and <span>"
-    ],
-    correctAnswer: "<nav>, <header>, <section>, <footer>",
-  },
-  {
-    question: "What effect does the following CSS rule have: 'section *:last-child { margin-bottom: 0 !important }'?",
-    choices: [
-      "It adds extra margin to the bottom of every section",
-      "It removes the margin at the bottom of the last child element within a section",
-      "It applies padding to the last section",
-      "It centers all content in the section"
-    ],
-    correctAnswer: "It removes the margin at the bottom of the last child element within a section",
-  },
-  {
-    question: "Which character is used to separate multiple CSS rules within a declaration block?",
-      choices: ["Comma (,)", "Period (.)", "Semicolon (;)", "Slash (/)"],
-      correctAnswer: "Semicolon (;)"
-  },
-  {
-    question: "What does the CSS padding property do?",
-    choices: [
-      "It sets the space between the content and the border of an element",
-      "It sets the space between the border and the edge of the page",
-      "It controls the width of an element",
-      "It controls the height of an element"
-    ],
-    correctAnswer: "It sets the space between the content and the border of an element",
-  }
-],
-}
+      {
+          question: "What is required to convert a regular anonymous function to an arrow function?",
+          choices: [
+              "Add the 'arrow' keyword",
+              "Remove 'function' keyword and add => after ()",
+              "Just add the => symbol anywhere",
+              "Change 'function' to 'arrow'"
+          ],
+          correctAnswer: "Remove 'function' keyword and add => after ()"
+      },
+      {
+          question: "When can you omit the parentheses () in an arrow function's parameters?",
+          choices: [
+              "When there are multiple parameters",
+              "When there is exactly one parameter",
+              "When there are no parameters",
+              "Parentheses are always required"
+          ],
+          correctAnswer: "When there is exactly one parameter"
+      },
+      {
+          question: "In a single-statement arrow function, what can be omitted?",
+          choices: [
+              "Only the curly braces",
+              "Only the return keyword",
+              "Both curly braces and return keyword",
+              "The arrow (=>) symbol"
+          ],
+          correctAnswer: "Both curly braces and return keyword"
+      },
+      {
+          question: "What is an implicit return in an arrow function?",
+          choices: [
+              "When the function automatically returns undefined",
+              "When the return value is specified without using the return keyword",
+              "When the function returns multiple values",
+              "When the function has no return value"
+          ],
+          correctAnswer: "When the return value is specified without using the return keyword"
+      },
+      {
+          question: "When is it NOT recommended to use arrow functions?",
+          choices: [
+              "With single parameters",
+              "With implicit returns",
+              "With multiple statements in the function body",
+              "With callbacks"
+          ],
+          correctAnswer: "With multiple statements in the function body"
+      },
+      {
+          question: "Which is a valid single-statement arrow function with implicit return?",
+          choices: [
+              "const add = (a,b) => { return a + b }",
+              "const add = (a,b) => a + b",
+              "const add = (a,b) => { a + b }",
+              "const add = (a,b) => return a + b"
+          ],
+          correctAnswer: "const add = (a,b) => a + b"
+      },
+      {
+          question: "How do you make an arrow function execute immediately?",
+          choices: [
+              "Add () at the end before the semicolon",
+              "Use the immediate keyword",
+              "Add the execute() method",
+              "Call it right after declaration"
+          ],
+          correctAnswer: "Add () at the end before the semicolon"
+      },
+      {
+          question: "What is true about hoisting with arrow functions?",
+          choices: [
+              "Arrow functions are hoisted",
+              "Arrow functions must be created before being called",
+              "Hoisting depends on the number of parameters",
+              "Only single-line arrow functions are hoisted"
+          ],
+          correctAnswer: "Arrow functions must be created before being called"
+      },
+      {
+          question: "Where are arrow functions commonly used?",
+          choices: [
+              "Only in global scope",
+              "Only with multiple statements",
+              "In callbacks, arrays, objects, and event-handlers",
+              "Only with explicit returns"
+          ],
+          correctAnswer: "In callbacks, arrays, objects, and event-handlers"
+      },
+      {
+          question: "What's the main advantage of using arrow functions?",
+          choices: [
+              "They can handle more parameters",
+              "They provide more functionality",
+              "They offer concise syntax for single-statement functions",
+              "They are always faster than regular functions"
+          ],
+          correctAnswer: "They offer concise syntax for single-statement functions"
+      }
+  ]
+};

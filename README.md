@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 # quiz-dorset
 # quiz-dorset
 # quiz-dorset
+# quiz-dorset-javascript

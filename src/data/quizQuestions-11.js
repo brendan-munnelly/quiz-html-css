@@ -1,99 +1,104 @@
 export const quizQuestions_11 = {
   questions: [
-  {
-        question: "What is Responsive Web Design (RWD)?",
-        choices: [
-          "Creating web pages that are static and have a fixed layout.",
-          "Creating web pages that adjust the layout and size of elements based on the user's viewport size.",
-          "Creating web pages that respond to user interactions like clicks and hovers.",
-          "Creating mobile applications for web pages."
-        ],
-        correctAnswer: "Creating web pages that adjust the layout and size of elements based on the user's viewport size.",
-      },
-      {
-        question: "What does the term 'viewport' refer to?",
-        choices: [
-          "The size of the HTML page's body.",
-          "The area of a screen that displays a web page's content, excluding menus and other UI elements.",
-          "The total screen size of a device.",
-          "The maximum width of a web page."
-        ],
-        correctAnswer: "The area of a screen that displays a web page's content, excluding menus and other UI elements.",
-      },
-      {
-        question: "What are 'breakpoints' in responsive web design?",
-        choices: [
-          "Points at which a web page crashes.",
-          "Viewport widths where the page layout changes based on screen size.",
-          "Points in time when a page reloads.",
-          "Specific tags in HTML that trigger a response."
-        ],
-        correctAnswer: "Viewport widths where the page layout changes based on screen size.",
-      },
-      {
-        question: "At what width is the common breakpoint for switching between 'small' and 'large' screens?",
-        choices: [
-          "960px",
-          "1024px",
-          "768px",
-          "480px"
-        ],
-        correctAnswer: "768px",
-      },
-      {
-        question: "Which media query would target devices with a viewport width less than or equal to 767px?",
-        choices: [
-          "@media (min-width: 768px)",
-          "@media (max-width: 767px)",
-          "@media (min-width: 1024px)",
-          "@media (max-width: 480px)"
-        ],
-        correctAnswer: "@media (max-width: 767px)",
-      },
-      {
-        question: "How does the padding property affect the content of a web page?",
-        choices: [
-          "It adjusts the space between the border and the margin.",
-          "It adjusts the space between the content and the border.",
-          "It adjusts the size of the font on the web page.",
-          "It changes the width of the page elements."
-        ],
-        correctAnswer: "It adjusts the space between the content and the border.",
-      },
-      {
-        question: "What CSS rule is used to create media queries?",
-        choices: ["@media", "@responsive", "@breakpoint", "@screen"],
-        correctAnswer: "@media"
-      },
-      {
-        question: "What does 'min-width: 768px' in a media query target?",
-        choices: [
-          "Screens exactly 768px wide",
-          "Screens 768px wide or wider",
-          "Screens narrower than 768px",
-          "Screens between 0px and 768px wide"
-        ],
-        correctAnswer: "Screens 768px wide or wider"
-      },
-      {
-        question: "Why are media queries important for Responsive Web Design?",
-        choices: [
-          "They allow content to load faster.",
-          "They provide conditions under which specific styles apply, making web pages responsive to different screen sizes.",
-          "They allow JavaScript to run conditionally.",
-          "They are used to organize HTML structure."
-        ],
-        correctAnswer: "They provide conditions under which specific styles apply, making web pages responsive to different screen sizes.",
-      },
-      {
-        question: "What happens if a media query is not properly closed?",
-        choices: [
-          "The webpage will fail to load.",
-          "The entire CSS file will be ignored.",
-          "All styles following the unclosed media query will be controlled by that query.",
-          "The webpage will only be responsive on mobile devices."
-        ],
-        correctAnswer: "All styles following the unclosed media query will be controlled by that query.",
-      }
-],
-}
+    {
+      question: "What is the purpose of a CSS class?",
+      choices: [
+        "To define a new HTML element.",
+        "To apply unique styles to specific HTML elements.",
+        "To create animations in CSS.",
+        "To add JavaScript functionality to HTML elements."
+      ],
+      correctAnswer: "To apply unique styles to specific HTML elements.",
+    },
+    {
+      question: "Which symbol is used to define a class selector in CSS?",
+      choices: [
+        "#",
+        ".",
+        "*",
+        "&"
+      ],
+      correctAnswer: ".",
+    },
+    {
+      question: "What are the two common color models used in CSS?",
+      choices: [
+        "HEX and CMYK",
+        "RGB and HSL",
+        "RGB and HEX",
+        "CMYK and HSL"
+      ],
+      correctAnswer: "RGB and HEX",
+    },
+    {
+      question: "What is the range of values for each color in the RGB system?",
+      choices: [
+        "0 to 255",
+        "0 to 100",
+        "1 to 100",
+        "1 to 10"
+      ],
+      correctAnswer: "0 to 255",
+    },
+    {
+      question: "What character must a hex color code start with?",
+      choices: [
+        "&",
+        "$",
+        "#",
+        "%"
+      ],
+      correctAnswer: "#",
+    },
+    {
+      question: "How can multiple classes be assigned to an HTML element?",
+      choices: [
+        "By separating each class name with a comma.",
+        "By separating each class name with a semicolon.",
+        "By separating each class name with a space.",
+        "By using an ampersand (&) between each class name."
+      ],
+      correctAnswer: "By separating each class name with a space.",
+    },
+    {
+      question: "What prefix do CSS custom properties (variables) require?",
+      choices: [
+        "##",
+        "--",
+        "%%",
+        "@@"
+      ],
+      correctAnswer: "--",
+    },
+    {
+      question: "How do you reference a custom property in CSS?",
+      choices: [
+        "var(--property-name)",
+        "--property-name",
+        "$property-name",
+        "property-name"
+      ],
+      correctAnswer: "var(--property-name)",
+    },
+    {
+      question: "Why might color names be less useful in modern web design?",
+      choices: [
+        "They are difficult to remember.",
+        "They are limited in number and sometimes misleading.",
+        "They only work in specific web browsers.",
+        "They don’t allow for transparency."
+      ],
+      correctAnswer: "They are limited in number and sometimes misleading.",
+    },
+    {
+      question: "What is the benefit of using custom properties for colors in CSS?",
+      choices: [
+        "They eliminate the need for HEX codes.",
+        "They allow easy reuse and consistency across stylesheets.",
+        "They prevent conflicts between HTML and CSS.",
+        "They automatically optimize colors for different devices."
+      ],
+      correctAnswer: "They allow easy reuse and consistency across stylesheets.",
+    },
+  ],
+};

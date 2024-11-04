@@ -1,99 +1,69 @@
 export const quizQuestions_13 = {
   questions: [
     {
-        question: "What CSS property is used to change the background colour of an element?",
-        choices: [
-          "color",
-          "background-color",
-          "font-color",
-          "border-color"
-        ],
-        correctAnswer: "background-color",
-      },
-      {
-        question: "Which ONE of the following is NOT a correctly formatted CSS style rule?",
-        choices: [
-          "h2 { color: #ffff00; }",
-          "h2 { color: #FFFF00 }",
-          "h2 { color: green: }",
-          "h2 { color: RGB(255,0,0) }"
-        ],
-        correctAnswer: "h2 { color: green: }",
-      },
-      {
-        question: "Which ONE of the following is NOT a correctly formatted CSS style rule?",
-        choices: [
-          "p { color: RGB(255,0,0); }",
-          "p { color: rgb(0,0,0) }",
-          "p { color: ffffff; }",
-          "p { color: #00ff00 }"
-        ],
-        correctAnswer: "p { color: ffffff; }",
-      },
-      {
-        question: "What is a colour palette?",
-        choices: [
-          "A way of setting colours with hex codes.",
-          "A combination of colours that work together harmoniously.",
-          "A way of setting colours with RGB codes.",
-          "A combination of one light and one dark colour only."
-        ],
-        correctAnswer: "A combination of colours that work together harmoniously.",
-      },
-      {
-        question: "Typically, where do you set the colours for the elements in a web page",
-        choices: [
-          "In the HTML file",
-          "In the CSS file",
-          "In the README.md file",
-          "All of the above"
-        ],
-        correctAnswer: "In the CSS file",
-      },
-      {
-        question: "What is the correct way to set the background colour of the body to lightgreen in CSS?",
-        choices: [
-          "body { background-color: green; }",
-          "body { background-color: lightgreen; }",
-          "body { background-color: lightblue; }",
-          "body { color: lightgreen; }"
-        ],
-        correctAnswer: "body { background-color: lightgreen; }",
-      },
-      {
-        question: "Which ONE of the following style rules correctly displays a hyperlink in blue?",
-        choices: [
-          "a { color: blue: }",
-          "ahref { color: blue; }",
-          "a { color; blue }",
-          "a { color: RGB(0,0,255) }"
-        ],
-        correctAnswer: "a { color: RGB(0,0,255) }",
-      },
-      {
-        question: "Which CSS property is used to change the text colour?",
-        choices: [
-          "font-color",
-          "text-color",
-          "color",
-          "background-color"
-        ],
-        correctAnswer: "color",
-      },
-      {
-        question: "Which color model is based on red, green, and blue values?",
-        choices: ["CMYK", "HSL", "RGB", "HEX"],
-          correctAnswer: "RGB"
-      },
-      {
-        question: "Which of the following is NOT a valid way to specify a color in CSS?",
-          choices: [
-            "color: #00FF00;",
-            "color: rgb(0, 255, 0);",
-            "color: green;",
-            "color: 00FF00;"
-        ],
-        correctAnswer: "color: 00FF00;"
-      }
-],
-}
+      question: 'Which HTML tag is used to insert an image into a web page?',
+      choices: ['<picture>', '<img>', '<figure>', '<image>'],
+      correctAnswer: '<img>',
+    },
+    {
+      question: 'Which attribute is used to specify the path to the image file?',
+      choices: ['alt', 'src', 'href', 'path'],
+      correctAnswer: 'src',
+    },
+    {
+      question: 'What does the "alt" attribute provide for an image?',
+      choices: [
+        'Alternative text for when the image cannot be displayed',
+        'Source link for the image',
+        'The file size of the image',
+        'The width of the image',
+      ],
+      correctAnswer: 'Alternative text for when the image cannot be displayed',
+    },
+    {
+      question: 'What happens if the "alt" attribute is missing from an image tag?',
+      choices: [
+        'The image won’t be displayed',
+        'The web page is considered "invalid"',
+        'The image will not load',
+        'The web page will crash',
+      ],
+      correctAnswer: 'The web page is considered "invalid"',
+    },
+    {
+      question: 'Which image format is typically used for photographs?',
+      choices: ['JPG', 'PNG', 'SVG', 'GIF'],
+      correctAnswer: 'JPG',
+    },
+    {
+      question: 'Which image format supports transparent backgrounds?',
+      choices: ['JPG', 'BMP', 'PNG', 'GIF'],
+      correctAnswer: 'PNG',
+    },
+    {
+      question: 'Which CSS property is used to add a drop shadow effect to images?',
+      choices: ['box-shadow', 'border-radius', 'opacity', 'filter'],
+      correctAnswer: 'box-shadow',
+    },
+    {
+      question: 'Which CSS property is used to give images rounded corners?',
+      choices: ['border-style', 'border-radius', 'outline', 'corner-style'],
+      correctAnswer: 'border-radius',
+    },
+    {
+      question: 'What online tool can be used to remove the background from an image?',
+      choices: ['remove.bg', 'Photoshop', 'GIMP', 'Inkscape'],
+      correctAnswer: 'remove.bg',
+    },
+    {
+      question: 'What should you include in the <img> tag to make your website accessible?',
+      choices: [
+        'A long description of the image in the text content',
+        'A large image size for better quality',
+        'The "alt" attribute with descriptive text',
+        'A border around the image',
+      ],
+      correctAnswer: 'The "alt" attribute with descriptive text',
+    },
+  ],
+};

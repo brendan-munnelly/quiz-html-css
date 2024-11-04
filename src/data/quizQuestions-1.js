@@ -1,95 +1,105 @@
 
 export const quizQuestions_1 = {
-  questions: [
-    {
-    question: "Which of the following is a privacy-focused web browser developed by the creator of JavaScript?",
-    choices: ["Google Chrome", "Mozilla Firefox", "Brave", "Microsoft Edge"],
-    correctAnswer: "Brave",
-  },
-  {
-    question: "What file extension do stylesheet files typically have?",
-    choices: [".html", ".js", ".css", ".php"],
-    correctAnswer: ".css"
-  },
-  {
-    question: "Where can you find the option to display the Menu Bar in Firefox Developer Edition?",
-    choices: [
-      "Tools | Settings",
-      "Customize Toolbar under the More Tools option",
-      "Preferences | Appearance",
-      "View | Menu Bar"
-    ],
-    correctAnswer: "Customize Toolbar under the More Tools option",
-  },
-  {
-    question: "Which key combination opens the Developer Tools in most web browsers?",
-    choices: [
-      "Ctrl + Shift + i",
-      "Ctrl + Alt + t",
-      "Ctrl + Shift + t",
-      "Alt + Shift + i"
-    ],
-    correctAnswer: "Ctrl + Shift + i",
-  },
-  {
-    question: "Which of the following is true about Brave compared to Google Chrome?",
-    choices: [
-      "Brave is slower than Chrome",
-      "Brave is based on a different codebase than Chrome",
-      "Brave blocks ads and trackers by default",
-      "Brave does not support Chrome extensions"
-    ],
-    correctAnswer: "Brave blocks ads and trackers by default",
-  },
-  {
-    question: "How can you view the HTML source code of a web page in a browser?",
-    choices: [
-      "Right-click and select 'Inspect Element'",
-      "Right-click and select 'View Page Source'",
-      "Use Ctrl + U shortcut",
-      "Click File | View Source"
-    ],
-    correctAnswer: "Right-click and select 'View Page Source'",
-  },
-  {
-    question: "Where are CSS stylesheets typically linked in an HTML document?",
-    choices: [
-      "At the top of the <body> section",
-      "In the <head> section",
-      "In the <footer> section",
-      "Inside the <nav> tag"
-    ],
-    correctAnswer: "In the <head> section",
-  },
-  {
-    question: "Which version of Mozilla Firefox is tailored for web designers and developers?",
-    choices: [
-      "Mozilla Firefox Quantum", 
-      "Mozilla Firefox Nightly", 
-      "Mozilla Firefox Developer Edition", 
-      "Mozilla Firefox Enterprise"
-    ],
-    correctAnswer: "Mozilla Firefox Developer Edition",
-  },
-  {
-    question: "What is the purpose of pinning a browser to the Windows Taskbar?",
-    choices: [
-      "To reduce memory usage",
-      "To disable updates",
-      "To launch the browser with a single click",
-      "To improve browser speed"
-    ],
-    correctAnswer: "To launch the browser with a single click",
-  },
-  {
-    question: "Which of the following web browsers is included with macOS?",
-    choices: [
-      "Microsoft Edge",
-      "Safari",
-      "Brave",
-      "Mozilla Firefox"
-    ],
-    correctAnswer: "Safari",
-  },
-],
-}
+    questions: [
+        {
+            question: "What is the most efficient way to add JavaScript code directly in an HTML file?",
+            choices: [
+                "Add it anywhere in the HTML file",
+                "Add it in the <head> section without any attributes",
+                "Add it at the bottom just before the </body> tag",
+                "Add it at the top of the <body> section"
+            ],
+            correctAnswer: "Add it at the bottom just before the </body> tag"
+        },
+        {
+            question: "When adding external JavaScript files, what is the recommended approach?",
+            choices: [
+                "Add them in the <body> without any attributes",
+                "Add them in the <head> with the defer attribute",
+                "Add them at the end of the file",
+                "Add them anywhere with async attribute"
+            ],
+            correctAnswer: "Add them in the <head> with the defer attribute"
+        },
+        {
+            question: "What keyboard combination opens DevTools in Windows browsers?",
+            choices: [
+                "Ctrl + Shift + I",
+                "Ctrl + Alt + Delete",
+                "Ctrl + P",
+                "Shift + Alt + I"
+            ],
+            correctAnswer: "Ctrl + Shift + I"
+        },
+        {
+            question: "Which of the following is a benefit of using external JavaScript files?",
+            choices: [
+                "They make the HTML file larger",
+                "They require more server requests",
+                "They separate HTML and JavaScript code",
+                "They must include <script> tags"
+            ],
+            correctAnswer: "They separate HTML and JavaScript code"
+        },
+        {
+            question: "What is the purpose of the console.log() function in JavaScript?",
+            choices: [
+                "To create a new console window",
+                "To log users out of the application",
+                "To display or log information as part of the coding process",
+                "To clear the console history"
+            ],
+            correctAnswer: "To display or log information as part of the coding process"
+        },
+        {
+            question: "Why is it beneficial to use the defer attribute with external JavaScript files?",
+            choices: [
+                "It prevents the JavaScript from running at all",
+                "It makes the code run faster",
+                "It allows the files to load 'in the background' and run after the page is loaded",
+                "It reduces the file size"
+            ],
+            correctAnswer: "It allows the files to load 'in the background' and run after the page is loaded"
+        },
+        {
+            question: "What happens when you press Ctrl + plus(+) or minus(-) in DevTools?",
+            choices: [
+                "It opens a new console tab",
+                "It changes the font size",
+                "It zooms the entire webpage",
+                "It switches between dark and light mode"
+            ],
+            correctAnswer: "It changes the font size"
+        },
+        {
+            question: "What is the main advantage of using the Live Server VS Code extension?",
+            choices: [
+                "It makes your code run faster",
+                "It automatically fixes JavaScript errors",
+                "It provides instant reload when files are saved",
+                "It compresses your JavaScript files"
+            ],
+            correctAnswer: "It provides instant reload when files are saved"
+        },
+        {
+            question: "Which statement about external JavaScript files is FALSE?",
+            choices: [
+                "They separate HTML and JavaScript code",
+                "They make code easier to maintain",
+                "They should include <script> tags inside the file",
+                "They can be cached to speed up page loads"
+            ],
+            correctAnswer: "They should include <script> tags inside the file"
+        },
+        {
+            question: "What is a key feature of the JavaScript Console in DevTools?",
+            choices: [
+                "It only works with external JavaScript files",
+                "It provides a real-time environment to try JavaScript code",
+                "It automatically fixes coding errors",
+                "It requires a separate installation"
+            ],
+            correctAnswer: "It provides a real-time environment to try JavaScript code"
+        }
+    ]
+};

@@ -1,103 +1,100 @@
 export const quizQuestions_7 = {
   questions: [
-  {    question: "What does SEO stand for?",
+    {
+      question: "What does the term 'assets' refer to in frontend development?",
+      choices: [
+        "Only image files",
+        "Any files used by web pages that are not HTML files",
+        "JavaScript files exclusively",
+        "The main HTML files of a website"
+      ],
+      correctAnswer: "Any files used by web pages that are not HTML files"
+    },
+  {
+    question: "Where are CSS styles typically stored in a well-organized website structure?",
     choices: [
-      "Search Engine Optimisation",
-      "Social Engagement Online",
-      "Secure Email Operations",
-      "Search Engine Operations"
+      "In the HTML file",
+      "In a sub-folder named css inside an assets folder",
+      "In a folder named scripts",
+      "In the root folder of the website"
     ],
-    correctAnswer: "Search Engine Optimisation",
+    correctAnswer: "In a sub-folder named css inside an assets folder",
   },
   {
-    question: "What are the three steps search engines use to process web pages?",
+    question: "What is the purpose of a CSS selector?",
     choices: [
-      "Ranking, Indexing, Searching",
-      "Crawling, Indexing, Ranking",
-      "Browsing, Searching, Ranking",
-      "Crawling, Tagging, Ranking"
+      "To target elements in a linked HTML page for styling",
+      "To create new HTML elements",
+      "To link JavaScript files to a webpage",
+      "To remove unwanted styles"
     ],
-    correctAnswer: "Crawling, Indexing, Ranking",
+    correctAnswer: "To target elements in a linked HTML page for styling",
   },
   {
-    question: "What is the recommended maximum character length for a title tag?",
+    question: "How is a declaration block created in CSS?",
     choices: [
-      "100 characters",
-      "160 characters",
-      "60 characters",
-      "200 characters"
+      "With an opening and closing square bracket [ ]",
+      "With an opening and closing curly brace { }",
+      "With a forward slash /",
+      "With an asterisk *"
     ],
-    correctAnswer: "60 characters",
+    correctAnswer: "With an opening and closing curly brace { }",
   },
   {
-    question: "What does the description meta tag influence on search engine result pages (SERPs)?",
+    question: "What character is used to separate a CSS property from its value?",
+      choices: ["Semicolon (;)", "Colon (:)", "Equals sign (=)", "Hyphen (-)"],
+      correctAnswer: "Colon (:)"
+  },
+
+  {
+    question: "Which HTML tag is used to link a CSS file to a web page?",
     choices: [
-      "The ranking of your web page",
-      "The page's clickable title",
-      "The snippet of text displayed under the title",
-      "The file name of your web page"
+      "<style>",
+      "<link>",
+      "<script>",
+      "<meta>"
     ],
-    correctAnswer: "The snippet of text displayed under the title",
+    correctAnswer: "<link>",
   },
   {
-    question: "Which of the following is true about the h1 tag for SEO?",
+    question: "What is the role of the 'href' attribute in the link tag?",
     choices: [
-      "You should use more than one h1 tag per page",
-      "It should be located in the <head> section",
-      "It should include the main keyword or phrase",
-      "The h1 tag does not affect SEO"
+      "It specifies the stylesheet file to be linked",
+      "It applies default styles to the page",
+      "It imports JavaScript files",
+      "It declares the page title"
     ],
-    correctAnswer: "It should include the main keyword or phrase",
+    correctAnswer: "It specifies the stylesheet file to be linked",
   },
   {
-    question: "What does the 'robots' meta tag with 'noindex' do?",
+    question: "How are CSS comments created?",
     choices: [
-      "Prevents web crawlers from indexing a page",
-      "Increases the ranking of a web page",
-      "Automatically generates keywords for a page",
-      "Optimises images for search engines"
+      "Using double slashes //",
+      "Using hash symbols #",
+      "Using forward slash and asterisk /* */",
+      "Using quotation marks"
     ],
-    correctAnswer: "Prevents web crawlers from indexing a page",
+    correctAnswer: "Using forward slash and asterisk /* */",
   },
   {
-    question: "What should be included in your description meta tag?",
+    question: "What does the following CSS rule do? 'text-align: center;'",
     choices: [
-      "Only the title of the page",
-      "A detailed history of the company",
-      "A call to action and keywords",
-      "Multiple keywords separated by commas"
+      "Centers text within its containing element",
+      "Adds margin to the text",
+      "Changes the font size",
+      "Aligns the text to the left"
     ],
-    correctAnswer: "A call to action and keywords",
+    correctAnswer: "Centers text within its containing element",
   },
   {
-    question: "Why is it important to avoid duplicate title and description tags on different web pages?",
+    question: "What is the correct format for linking a CSS file in HTML?",
     choices: [
-      "It slows down the website's loading speed",
-      "It confuses search engines and hurts SEO ranking",
-      "It helps improve ranking for all pages",
-      "It is illegal to duplicate tags"
+      "<link rel='stylesheet' href='style.css'>",
+      "<link src='style.css' type='text/css'>",
+      "<style href='style.css'>",
+      "<meta rel='stylesheet' src='style.css'>"
     ],
-    correctAnswer: "It confuses search engines and hurts SEO ranking",
-  },
-  {
-    question: "What is the purpose of the title tag in SEO?",
-    choices: [
-      "It defines the style of the web page",
-      "It provides the clickable headline in SERPs",
-      "It adds a caption to images",
-      "It increases the website's loading speed"
-    ],
-    correctAnswer: "It provides the clickable headline in SERPs",
-  },
-  {
-    question: "Which of the following contributes to a higher click-through rate (CTR) on SERPs?",
-    choices: [
-      "Using generic descriptions for every page",
-      "Clear, relevant descriptions with a call to action",
-      "Hiding the description meta tag",
-      "Using over 200 characters in the description tag"
-    ],
-    correctAnswer: "Clear, relevant descriptions with a call to action",
-  },
+    correctAnswer: "<link rel='stylesheet' href='style.css'>",
+  }
 ],
 }

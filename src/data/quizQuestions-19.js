@@ -1,55 +1,104 @@
 export const quizQuestions_19 = {
-    questions: [
-        {
-          question: "Which CSS property can set the font style to italic?",
-          choices: ["font-weight", "font-family", "font-style", "font-size"],
-          correctAnswer: "font-style"
-        },
-        {
-          question: "Which property is used to adjust the space between text characters?",
-          choices: ["letter-spacing", "text-align", "line-height", "margin"],
-          correctAnswer: "letter-spacing"
-        },
-        {
-          question: "What is the default font-weight for <p> paragraph text in most browsers?",
-          choices: ["bold", "normal", "light", "bolder"],
-          correctAnswer: "normal"
-        },
-        {
-          question: "What CSS property is used to set the color of text?",
-          choices: ["color", "font-color", "text-color", "background-color"],
-          correctAnswer: "color"
-        },
-        {
-          question: "Which CSS property would you use to capitalize all text in a heading?",
-          choices: ["text-transform", "text-align", "font-style", "text-capital"],
-          correctAnswer: "text-transform"
-        },
-        {
-          question: "How do you specify the font size in web design?",
-          choices: ["px", "em", "rem", "Any of the above"],
-          correctAnswer: "Any of the above"
-        },
-        {
-          question: "Which font family is often easier to read for long paragraphs of text?",
-          choices: ["serif", "sans-serif", "cursive", "monospace"],
-          correctAnswer: "serif"
-        },
-        {
-          question: "The line-height property sets the spacing between what?",
-          choices: ["Characters", "Words", "Lines of text", "Paragraphs"],
-          correctAnswer: "Lines of text"
-        },
-        {
-          question: "What does the text-align property justify?",
-          choices: ["Vertical alignment", "Horizontal text alignment", "Letter-spacing", "Line-height"],
-          correctAnswer: "Horizontal text alignment"
-        },
-        {
-          question: "Which property controls the space between an element and other elements around it?",
-          choices: ["padding", "margin", "border", "spacing"],
-          correctAnswer: "margin"
-        },
-      ],
-    };
-  
+  questions: [
+  {
+    question: "What does CSS stand for?",
+    choices: [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Computer Styling System",
+      "Cascading Simple Syntax"
+    ],
+    correctAnswer: "Cascading Style Sheets",
+  },
+  {
+    question: "Where are CSS styles typically stored in a well-organized website structure?",
+    choices: [
+      "In the HTML file",
+      "In a sub-folder named css inside an assets folder",
+      "In a folder named scripts",
+      "In the root folder of the website"
+    ],
+    correctAnswer: "In a sub-folder named css inside an assets folder",
+  },
+  {
+    question: "What is the purpose of a CSS selector?",
+    choices: [
+      "To target elements in a linked HTML page for styling",
+      "To create new HTML elements",
+      "To link JavaScript files to a webpage",
+      "To remove unwanted styles"
+    ],
+    correctAnswer: "To target elements in a linked HTML page for styling",
+  },
+  {
+    question: "How is a declaration block in CSS structured?",
+    choices: [
+      "With an opening and closing square bracket [ ]",
+      "With an opening and closing curly brace { }",
+      "With a forward slash /",
+      "With an asterisk *"
+    ],
+    correctAnswer: "With an opening and closing curly brace { }",
+  },
+  {
+    question: "What does a CSS property and value pair represent?",
+    choices: [
+      "A variable and its value",
+      "An HTML element and its type",
+      "A style rule for an element",
+      "A link to an external stylesheet"
+    ],
+    correctAnswer: "A style rule for an element",
+  },
+  {
+    question: "Which HTML tag is used to link a CSS file to a web page?",
+    choices: [
+      "<style>",
+      "<link>",
+      "<script>",
+      "<meta>"
+    ],
+    correctAnswer: "<link>",
+  },
+  {
+    question: "What is the role of the 'href' attribute in the link tag?",
+    choices: [
+      "It specifies the stylesheet file to be linked",
+      "It applies default styles to the page",
+      "It imports JavaScript files",
+      "It declares the page title"
+    ],
+    correctAnswer: "It specifies the stylesheet file to be linked",
+  },
+  {
+    question: "How are CSS comments created?",
+    choices: [
+      "Using double slashes //",
+      "Using hash symbols #",
+      "Using forward slash and asterisk /* */",
+      "Using quotation marks"
+    ],
+    correctAnswer: "Using forward slash and asterisk /* */",
+  },
+  {
+    question: "What does the following CSS rule do? 'text-align: center;'",
+    choices: [
+      "Centers text within its containing element",
+      "Adds margin to the text",
+      "Changes the font size",
+      "Aligns the text to the left"
+    ],
+    correctAnswer: "Centers text within its containing element",
+  },
+  {
+    question: "What is the correct format for linking a CSS file in HTML?",
+    choices: [
+      "<link rel='stylesheet' href='style.css'>",
+      "<link src='style.css' type='text/css'>",
+      "<style href='style.css'>",
+      "<meta rel='stylesheet' src='style.css'>"
+    ],
+    correctAnswer: "<link rel='stylesheet' href='style.css'>",
+  }
+],
+}

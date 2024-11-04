@@ -1,99 +1,94 @@
 export const quizQuestions_6 = {
   questions: [
   {
-     question: "What is 'marking-up' in HTML?",
+    question: "Which one of the following statements is FALSE?",
     choices: [
-      "Adding links to a web page",
-      "Adding HTML tags to text content",
-      "Creating a folder for HTML files",
-      "Running scripts in a browser"
+      "Container tags such <section> are often referred to as semantic tags.",
+      "All container tags are placed within the <body> ... </body> of a web page.",
+      "The <main> container is often sub-divided with a number of <section> container tags.",
+      "Only the <nav> tag can contain <section> tags."
     ],
-    correctAnswer: "Adding HTML tags to text content",
+    correctAnswer: "Only the <nav> tag can contain <section> tags.",
+  },
+
+  {
+    question: "Which one of the following statements is FALSE?",
+    choices: [
+      "The <nav> tag typically contains a menu of hyperlinks and the organisation’s logo.",
+      "The purpose of container tags is not to style web page content but to structure or organise it into ‘blocks’ or ‘chunks’.",
+      "The <section> tag is often sub-divided into a number of <main> tags.",
+      "The <header> tag usually contains the <h1> heading and some introductory text."
+    ],
+    correctAnswer: "The <section> tag is often sub-divided into a number of <main> tags.",
+  },
+
+  {
+    question: "Which HTML tag is used to contain the main content of a web page?",
+    choices: ["<section>", "<main>", "<header>", "<footer>"],
+    correctAnswer: "<main>",
   },
   {
-    question: "What is the purpose of the HTMLHint extension in VS Code?",
+    question: "What is the purpose of the <nav> tag in HTML?",
     choices: [
-      "To format HTML files",
-      "To identify and correct HTML mark-up errors",
-      "To create new HTML tags",
-      "To upload files to GitHub"
+      "To hold navigation links such as menus",
+      "To contain the main content of a web page",
+      "To display the footer content",
+      "To display headings on a page"
     ],
-    correctAnswer: "To identify and correct HTML mark-up errors",
+    correctAnswer: "To hold navigation links such as menus",
   },
   {
-    question: "How do you install the HTMLHint extension in VS Code?",
-    choices: [
-      "By using the terminal to install the extension",
-      "By downloading it from the VS Code website",
-      "By searching for 'HTMLHint' in the Extensions view and clicking Install",
-      "By enabling it in the VS Code settings"
-    ],
-    correctAnswer: "By searching for 'HTMLHint' in the Extensions view and clicking Install",
+    question: "Which tag should contain the top-level heading and introductory text of a page?",
+    choices: ["<header>", "<nav>", "<section>", "<footer>"],
+    correctAnswer: "<header>",
   },
   {
-    question: "How many <title> tags should be in the <head> of an HTML document?",
+    question: "How are sections within the <main> tag typically styled differently?",
     choices: [
-      "As many as needed", 
-      "At least one", 
-      "Exactly one", 
-      "None"
+      "By using different HTML tags for each section",
+      "By applying different CSS styles to each <section> container",
+      "By using the <div> tag for each section",
+      "By adding inline styles to the <main> tag"
     ],
-    correctAnswer: "Exactly one"
-   },
-  {
-    question: "How many <h1> tags should typically be in the <body> of an HTML document?",
-      choices: ["As many as needed", "At least one", "Exactly one", "None"],
-      correctAnswer: "Exactly one"
+    correctAnswer: "By applying different CSS styles to each <section> container",
   },
   {
-    question: "What is the function of closing tags in HTML?",
+    question: "Which tag typically contains legal and copyright information on a web page?",
+    choices: ["<footer>", "<header>", "<main>", "<nav>"],
+    correctAnswer: "<footer>",
+  },
+
+  {
+    question: "How can you generate Lorem Ipsum text in VS Code?",
     choices: [
-      "They are optional in all cases",
-      "They help specify the end of an HTML element",
-      "They can be omitted if the element is empty",
-      "They allow HTML elements to load faster"
+      "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
+      "By typing random characters",
+      "By pressing the Ctrl+L key",
+      "By copying it from the web"
     ],
-    correctAnswer: "They help specify the end of an HTML element",
+    correctAnswer: "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
   },
   {
-    question: "What does HTMLHint do when you open a web page with errors in VS Code?",
+    question: "What is the function of the <section> tag in modern web design?",
     choices: [
-      "Automatically corrects the errors",
-      "Shows a warning with the number of errors and their line numbers",
-      "Deletes invalid HTML tags",
-      "Highlights the errors in the browser"
+      "To define a block of navigation links",
+      "To subdivide the <main> content into smaller containers that can be styled differently",
+      "To display the footer content",
+      "To add metadata to the page"
     ],
-    correctAnswer: "Shows a warning with the number of errors and their line numbers",
+    correctAnswer: "To subdivide the <main> content into smaller containers that can be styled differently",
   },
   {
-    question: "What is the correct way to save an HTML file when using the 'Save Page As...' command?",
+    question: "What is the usual order in which container tags are placed in a web page?",
     choices: [
-      "Web Page, complete",
-      "Web Page, HTML Only",
-      "Text Document",
-      "All Files"
+      "<header>, <main>, <nav>, <footer>",
+      "<main>, <header>, <nav>, <footer>",
+      "<nav>, <header>, <main>, <footer>",
+      "<footer>, <nav>, <main>, <header>"
     ],
-    correctAnswer: "Web Page, HTML Only"
+    correctAnswer: "<nav>, <header>, <main>, <footer>",
   },
-  {
-    question: "When uploading files to GitHub, what method must be used if you're uploading both files and folders?",
-    choices: [
-      "File select method",
-      "Drag-and-drop method",
-      "Command line interface",
-      "GitHub desktop application"
-    ],
-    correctAnswer: "Drag-and-drop method"
-  },
-  {
-    question: "What is the correct way to ensure your web page is published on GitHub?",
-    choices: [
-      "Use a local file server",
-      "Commit changes in your repository and wait a few minutes",
-      "Send an email to GitHub support",
-      "Only upload HTML files and avoid CSS or JS files"
-    ],
-    correctAnswer: "Commit changes in your repository and wait a few minutes",
-  },
+
+
 ],
 }
