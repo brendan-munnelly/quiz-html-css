@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r git@github.com:brendan-munnelly/quiz-html-css.git"
+    "deploy": "gh-pages -d dist"
 
   },
   "dependencies": {
