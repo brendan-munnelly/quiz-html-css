@@ -1,84 +1,104 @@
 export const quizQuestions_8 = {
   questions: [
-  {
-    question: "What is the primary purpose of wireframes in web design?",
-    choices: [
-      "To create high-fidelity mockups",
-      "To establish a rough layout of a web page",
-      "To add interactive elements to the page",
-      "To optimize a website for SEO"
-    ],
-    correctAnswer: "To establish a rough layout of a web page",
-  },
-  {
-    question: "Which of the following is a high-fidelity mockup used in web design?",
-    choices: ["Wireframe", "Prototype", "Sitemap", "Sketch"],
-    correctAnswer: "Prototype",
-  },
-  {
-    question: "Which HTML tag is used to contain the main content of a web page?",
-    choices: ["<section>", "<main>", "<header>", "<footer>"],
-    correctAnswer: "<main>",
-  },
-  {
-    question: "What is the purpose of the <nav> tag in HTML?",
-    choices: [
-      "To contain the main content of a web page",
-      "To hold navigation links such as menus",
-      "To display the footer content",
-      "To display headings on a page"
-    ],
-    correctAnswer: "To hold navigation links such as menus",
-  },
-  {
-    question: "Which tag should contain the top-level heading and introductory text of a page?",
-    choices: ["<header>", "<nav>", "<section>", "<footer>"],
-    correctAnswer: "<header>",
-  },
-  {
-    question: "How are sections within the <main> tag typically styled differently?",
-    choices: [
-      "By using different HTML tags for each section",
-      "By applying different CSS styles to each <section> container",
-      "By using the <div> tag for each section",
-      "By adding inline styles to the <main> tag"
-    ],
-    correctAnswer: "By applying different CSS styles to each <section> container",
-  },
-  {
-    question: "Which tag typically contains legal and copyright information on a web page?",
-    choices: ["<footer>", "<header>", "<main>", "<nav>"],
-    correctAnswer: "<footer>",
-  },
-  {
-    question: "What is the difference between a wireframe and a prototype?",
-    choices: [
-      "A wireframe is low-fidelity, while a prototype is high-fidelity",
-      "A wireframe is high-fidelity, while a prototype is low-fidelity",
-      "A wireframe is interactive, while a prototype is static",
-      "There is no difference between them"
-    ],
-    correctAnswer: "A wireframe is low-fidelity, while a prototype is high-fidelity",
-  },
-  {
-    question: "How can you generate Lorem Ipsum text in VS Code?",
-    choices: [
-      "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
-      "By typing random characters",
-      "By pressing the Ctrl+L key",
-      "By copying it from the web"
-    ],
-    correctAnswer: "By typing 'lorem' and selecting it from the Emmet Abbreviation menu",
-  },
-  {
-    question: "What is the function of the <section> tag in modern web design?",
-    choices: [
-      "To define a block of navigation links",
-      "To subdivide the <main> content into smaller containers",
-      "To display the footer content",
-      "To add metadata to the page"
-    ],
-    correctAnswer: "To subdivide the <main> content into smaller containers",
-  }
+      {
+        "question": "What does the term 'negative space' refer to in web design?",
+        "choices": [
+          "Space with dark background colors",
+          "Empty space in a design layout that surrounds content",
+          "Areas with negative CSS z-index values",
+          "Space that appears when elements overlap incorrectly"
+        ],
+        "correctAnswer": "Empty space in a design layout that surrounds content"
+      },
+    {
+      "question": "What does the CSS margin property control?",
+      "choices": [
+        "The space inside an element between its content and its border",
+        "The space outside an element, creating separation between elements",
+        "The line height of text within an element",
+        "The border style of an element"
+      ],
+      "correctAnswer": "The space outside an element, creating separation between elements"
+    },
+    {
+      "question": "Which CSS property is typically used inside container elements like header, section, and footer?",
+      "choices": [
+        "margin",
+        "border",
+        "padding",
+        "spacing"
+      ],
+      "correctAnswer": "padding"
+    },
+    {
+      "question": "At what width is the common breakpoint for switching between 'small' and 'large' viewports?",
+      "choices": [
+        "960px",
+        "1024px",
+        "768px",
+        "480px"
+      ],
+      "correctAnswer": "768px",
+    },
+    {
+      "question": "In CSS, what is a 'breakpoint'?",
+      "choices": [
+        "A point where the code stops executing",
+        "The viewport width at which the page layout needs to change",
+        "A point where the CSS file is separated into multiple files",
+        "The maximum width a web page can have"
+      ],
+      "correctAnswer": "The viewport width at which the page layout needs to change"
+    },
+    {
+      "question": "What does the TROUBLE mnemonic help you remember?",
+      "choices": [
+        "The order of HTML tags in a document",
+        "The debugging process for CSS issues",
+        "The order of CSS shorthand properties (like margin and padding)",
+        "The principles of responsive web design"
+      ],
+      "correctAnswer": "The order of CSS shorthand properties (like margin and padding)"
+    },
+    {
+      "question": "In CSS media queries, what does 'min-width: 768px' specify?",
+      "choices": [
+        "Apply these styles when the viewport is exactly 768px wide",
+        "Apply these styles when the viewport is at most 768px wide",
+        "Apply these styles when the viewport is at least 768px wide",
+        "Apply these styles when the viewport is less than 768px wide"
+      ],
+      "correctAnswer": "Apply these styles when the viewport is at least 768px wide"
+    },
+    {
+      "question": "How would you write the CSS shorthand for setting different margins on all four sides of an element?",
+      "choices": [
+        "margin: top right bottom left;",
+        "margin: left right top bottom;",
+        "margin: all-sides;",
+        "margin: vertical horizontal;"
+      ],
+      "correctAnswer": "margin: top right bottom left;"
+    },
+    {
+      "question": "What is the key difference between margin and padding in CSS?",
+      "choices": [
+        "Margin is inside the element, padding is outside",
+        "Margin is outside the element, padding is inside",
+        "Margin applies to block elements only, padding applies to all elements",
+        "Margin affects text spacing, padding affects element spacing"
+      ],
+      "correctAnswer": "Margin is outside the element, padding is inside"
+    },
+    {
+      "question": "What is the primary purpose of using media queries in CSS?",
+      "choices": [
+        "To optimise website loading speed",
+        "To apply different styles based on viewport characteristics",
+        "To query a database for dynamic content",
+        "To validate user input on forms"
+      ],
+      "correctAnswer": "To apply different styles based on viewport characteristics"
+    }
 ],
 }

@@ -1,99 +1,104 @@
 export const quizQuestions_11 = {
   questions: [
-  {
-        question: "What is Responsive Web Design (RWD)?",
+    {
+        question: "What is a class in HTML?",
         choices: [
-          "Creating web pages that are static and have a fixed layout.",
-          "Creating web pages that adjust the layout and size of elements based on the user's viewport size.",
-          "Creating web pages that respond to user interactions like clicks and hovers.",
-          "Creating mobile applications for web pages."
+          "A version of an HTML tag that can apply specific styles",
+          "A CSS selector for creating new tags",
+          "A function in JavaScript",
+          "A method to link two HTML files"
         ],
-        correctAnswer: "Creating web pages that adjust the layout and size of elements based on the user's viewport size.",
+        correctAnswer: "A version of an HTML tag that can apply specific styles",
       },
       {
-        question: "What does the term 'viewport' refer to?",
+        question: "What is the main purpose of using classes in HTML?",
         choices: [
-          "The size of the HTML page's body.",
-          "The area of a screen that displays a web page's content, excluding menus and other UI elements.",
-          "The total screen size of a device.",
-          "The maximum width of a web page."
+          "To make websites load faster",
+          "To apply different styles to elements that have the same HTML tag",
+          "To create more HTML tags",
+          "To combine multiple HTML files together"
         ],
-        correctAnswer: "The area of a screen that displays a web page's content, excluding menus and other UI elements.",
+        correctAnswer: "To apply different styles to elements that have the same HTML tag",
       },
       {
-        question: "What are 'breakpoints' in responsive web design?",
+        question: "In a stylesheet, what character must a CSS class selector start with?",
         choices: [
-          "Points at which a web page crashes.",
-          "Viewport widths where the page layout changes based on screen size.",
-          "Points in time when a page reloads.",
-          "Specific tags in HTML that trigger a response."
+          "#",
+          ".",
+          "@",
+          "$"
         ],
-        correctAnswer: "Viewport widths where the page layout changes based on screen size.",
+        correctAnswer: ".",
       },
       {
-        question: "At what width is the common breakpoint for switching between 'small' and 'large' screens?",
+        question: "How can you assign multiple classes to a single HTML element?",
         choices: [
-          "960px",
-          "1024px",
-          "768px",
-          "480px"
+          "Use commas between the class names",
+          "Use a space between the class names",
+          "Use a hyphen between the class names",
+          "Separate class names using semicolons"
         ],
-        correctAnswer: "768px",
+        correctAnswer: "Use a space between the class names",
       },
       {
-        question: "Which media query would target devices with a viewport width less than or equal to 767px?",
+        question: "Which of the following is NOT a rule about class names in an HTML file?",
         choices: [
-          "@media (min-width: 768px)",
-          "@media (max-width: 767px)",
-          "@media (min-width: 1024px)",
-          "@media (max-width: 480px)"
+          "Class names are entered within double quotes",
+          "Class names cannot have spaces within them",
+          "An element can have more than one class name",
+          "Class names must be in uppercase"
         ],
-        correctAnswer: "@media (max-width: 767px)",
+        correctAnswer: "Class names must be in uppercase",
       },
       {
-        question: "How does the padding property affect the content of a web page?",
+        question: "When applying a dark background colour to a <section>, what should you consider for the text?",
         choices: [
-          "It adjusts the space between the border and the margin.",
-          "It adjusts the space between the content and the border.",
-          "It adjusts the size of the font on the web page.",
-          "It changes the width of the page elements."
+          "Nothing, the text will always be visible",
+          "Making the text bold",
+          "Updating the text to a light colour for readability",
+          "Using a larger font size"
         ],
-        correctAnswer: "It adjusts the space between the content and the border.",
+        correctAnswer: "Updating the text to a light colour for readability",
       },
       {
-        question: "What CSS rule is used to create media queries?",
-        choices: ["@media", "@responsive", "@breakpoint", "@screen"],
-        correctAnswer: "@media"
+        question: "If you want to join words in a class name, what character should you use?",
+        choices: [
+          "Space ( )",
+          "Underline (_)",
+          "Hyphen (-)",
+          "Period (.)"
+        ],
+        correctAnswer: "Hyphen (-)",
       },
       {
-        question: "What does 'min-width: 768px' in a media query target?",
+        question: "Which of the following correctly uses a class in HTML?",
         choices: [
-          "Screens exactly 768px wide",
-          "Screens 768px wide or wider",
-          "Screens narrower than 768px",
-          "Screens between 0px and 768px wide"
+          "<section class=\"section-1\"></section>",
+          "<section class.section-1></section>",
+          "<section id=\"section-1\"></section>",
+          "<section #class=\"section-1\"></section>"
         ],
-        correctAnswer: "Screens 768px wide or wider"
+        correctAnswer: "<section class=\"section-1\"></section>",
       },
       {
-        question: "Why are media queries important for Responsive Web Design?",
+        question: "Can the same class name be applied to multiple elements in a web page?",
         choices: [
-          "They allow content to load faster.",
-          "They provide conditions under which specific styles apply, making web pages responsive to different screen sizes.",
-          "They allow JavaScript to run conditionally.",
-          "They are used to organize HTML structure."
+          "No, each element must have a unique class name",
+          "Yes, multiple elements can share the same class name",
+          "Only if the elements are of the same type",
+          "Only if you use a special prefix"
         ],
-        correctAnswer: "They provide conditions under which specific styles apply, making web pages responsive to different screen sizes.",
+        correctAnswer: "Yes, multiple elements can share the same class name",
       },
       {
-        question: "What happens if a media query is not properly closed?",
+        question: "Which statement best describes the relationship between HTML tags and CSS classes?",
         choices: [
-          "The webpage will fail to load.",
-          "The entire CSS file will be ignored.",
-          "All styles following the unclosed media query will be controlled by that query.",
-          "The webpage will only be responsive on mobile devices."
+          "Each HTML tag must have exactly one class",
+          "Classes can only be applied to certain HTML tags like <nav> and <footer>",
+          "Classes are ways to create versions of HTML tags with specific styling",
+          "Classes completely replace the need for different HTML tags"
         ],
-        correctAnswer: "All styles following the unclosed media query will be controlled by that query.",
+        correctAnswer: "Classes are ways to create versions of HTML tags with specific styling"
       }
 ],
 }

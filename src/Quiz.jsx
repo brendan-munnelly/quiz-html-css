@@ -48,7 +48,7 @@ const Quiz = () => {
 
   if (quizId === '1') {
       questions = quizQuestions_1.questions; 
-      questionsTopic = 'Web Browsers';
+      questionsTopic = 'Folders and Files';
   } 
   else if (quizId === '2') {
       questions = quizQuestions_2.questions; 
@@ -60,51 +60,51 @@ const Quiz = () => {
   }
   else if (quizId === '4') {
     questions = quizQuestions_4.questions; 
-    questionsTopic = 'Folders and Files';
+    questionsTopic = 'Working with HTML';
   }
   else if (quizId === '5') {
     questions = quizQuestions_5.questions; 
-    questionsTopic = 'Working with HTML';
+    questionsTopic = 'Debugging HTML';
   }
   else if (quizId === '6') {
     questions = quizQuestions_6.questions; 
-    questionsTopic = 'Debugging HTML';
+    questionsTopic = 'Container/Semantic Elements';
   }
   else if (quizId === '7') {
     questions = quizQuestions_7.questions;
-    questionsTopic = 'SEO and Web Pages'; 
+    questionsTopic = 'Working with CSS'; 
   }
   else if (quizId === '8') {
     questions = quizQuestions_8.questions; 
-    questionsTopic = 'Container Elements';
+    questionsTopic = 'Working with Layout';
   }
   else if (quizId === '9') {
     questions = quizQuestions_9.questions; 
-    questionsTopic = 'Working with CSS';
+    questionsTopic = 'Working with Text';
   }
   else if (quizId === '10') {
     questions = quizQuestions_10.questions; 
-    questionsTopic = 'Negative Spacing';
+    questionsTopic = 'Working with Colours';
   }
   else if (quizId === '11') {
     questions = quizQuestions_11.questions; 
-    questionsTopic = 'Media Queries';
+    questionsTopic = 'Working with Classes';
   }
   else if (quizId === '12') {
     questions = quizQuestions_12.questions; 
-    questionsTopic = 'Colour Models';
+    questionsTopic = 'Working with Images and Videos';
   }
   else if (quizId === '13') {
     questions = quizQuestions_13.questions; 
-    questionsTopic = 'Updating CSS Colours';
+    questionsTopic = 'Working with Google Fonts';
   }
   else if (quizId === '14') {
     questions = quizQuestions_14.questions; 
-    questionsTopic = 'Classes and Custom Properties';
+    questionsTopic = 'Working with Hyperlinks';
   }
   else if (quizId === '15') {
     questions = quizQuestions_15.questions; 
-    questionsTopic = 'Introduction to Images';
+    questionsTopic = 'Styling Hyperlinks';
   }
   else if (quizId === '16') {
     questions = quizQuestions_16.questions; 

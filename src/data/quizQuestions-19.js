@@ -1,70 +1,55 @@
 export const quizQuestions_19 = {
     questions: [
-      {
-        question: 'Which HTML tag is used to insert an image into a web page?',
-        choices: ['<picture>', '<img>', '<figure>', '<image>'],
-        correctAnswer: '<img>',
-      },
-      {
-        question: 'Which attribute is used to specify the path to the image file?',
-        choices: ['alt', 'src', 'href', 'path'],
-        correctAnswer: 'src',
-      },
-      {
-        question: 'What does the "alt" attribute provide for an image?',
-        choices: [
-          'Alternative text for when the image cannot be displayed',
-          'Source link for the image',
-          'The file size of the image',
-          'The width of the image',
-        ],
-        correctAnswer: 'Alternative text for when the image cannot be displayed',
-      },
-      {
-        question: 'What happens if the "alt" attribute is missing from an image tag?',
-        choices: [
-          'The image won’t be displayed',
-          'The web page is considered "invalid"',
-          'The image will not load',
-          'The web page will crash',
-        ],
-        correctAnswer: 'The web page is considered "invalid"',
-      },
-      {
-        question: 'Which image format is typically used for photographs?',
-        choices: ['JPG', 'PNG', 'SVG', 'GIF'],
-        correctAnswer: 'JPG',
-      },
-      {
-        question: 'Which image format supports transparent backgrounds?',
-        choices: ['JPG', 'BMP', 'PNG', 'GIF'],
-        correctAnswer: 'PNG',
-      },
-      {
-        question: 'Which CSS property is used to add a drop shadow effect to images?',
-        choices: ['box-shadow', 'border-radius', 'opacity', 'filter'],
-        correctAnswer: 'box-shadow',
-      },
-      {
-        question: 'Which CSS property is used to give images rounded corners?',
-        choices: ['border-style', 'border-radius', 'outline', 'corner-style'],
-        correctAnswer: 'border-radius',
-      },
-      {
-        question: 'What online tool can be used to remove the background from an image?',
-        choices: ['remove.bg', 'Photoshop', 'GIMP', 'Inkscape'],
-        correctAnswer: 'remove.bg',
-      },
-      {
-        question: 'What should you include in the <img> tag to make your website accessible?',
-        choices: [
-          'A long description of the image in the text content',
-          'A large image size for better quality',
-          'The "alt" attribute with descriptive text',
-          'A border around the image',
-        ],
-        correctAnswer: 'The "alt" attribute with descriptive text',
-      },
-    ],
-  };
+        {
+          question: "Which CSS property can set the font style to italic?",
+          choices: ["font-weight", "font-family", "font-style", "font-size"],
+          correctAnswer: "font-style"
+        },
+        {
+          question: "Which property is used to adjust the space between text characters?",
+          choices: ["letter-spacing", "text-align", "line-height", "margin"],
+          correctAnswer: "letter-spacing"
+        },
+        {
+          question: "What is the default font-weight for <p> paragraph text in most browsers?",
+          choices: ["bold", "normal", "light", "bolder"],
+          correctAnswer: "normal"
+        },
+        {
+          question: "What CSS property is used to set the color of text?",
+          choices: ["color", "font-color", "text-color", "background-color"],
+          correctAnswer: "color"
+        },
+        {
+          question: "Which CSS property would you use to capitalize all text in a heading?",
+          choices: ["text-transform", "text-align", "font-style", "text-capital"],
+          correctAnswer: "text-transform"
+        },
+        {
+          question: "How do you specify the font size in web design?",
+          choices: ["px", "em", "rem", "Any of the above"],
+          correctAnswer: "Any of the above"
+        },
+        {
+          question: "Which font family is often easier to read for long paragraphs of text?",
+          choices: ["serif", "sans-serif", "cursive", "monospace"],
+          correctAnswer: "serif"
+        },
+        {
+          question: "The line-height property sets the spacing between what?",
+          choices: ["Characters", "Words", "Lines of text", "Paragraphs"],
+          correctAnswer: "Lines of text"
+        },
+        {
+          question: "What does the text-align property justify?",
+          choices: ["Vertical alignment", "Horizontal text alignment", "Letter-spacing", "Line-height"],
+          correctAnswer: "Horizontal text alignment"
+        },
+        {
+          question: "Which property controls the space between an element and other elements around it?",
+          choices: ["padding", "margin", "border", "spacing"],
+          correctAnswer: "margin"
+        },
+      ],
+    };
   

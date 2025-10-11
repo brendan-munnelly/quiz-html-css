@@ -1,7 +1,7 @@
 export const quizQuestions_3 = {
   questions: [
     {
-    question: "What do frontend developers primarily use VS Code for?",
+    question: "What do web designers primarily use VS Code for?",
     choices: [
       "Editing images",
       "Creating web pages, stylesheets, and JavaScript files",
@@ -21,14 +21,14 @@ export const quizQuestions_3 = {
     correctAnswer: "Text files",
   },
   {
-    question: "Which two GitHub Copilot extensions are recommended for installation in VS Code?",
+    question: "What GitHub AI extension is recommended for installation in VS Code?",
       choices: [
-        "GitHub Copilot and GitHub Actions",
-        "GitHub Copilot and GitHub Desktop",
-        "GitHub Copilot and GitHub Copilot Chat",
-        "GitHub Copilot and GitHub Pages"
+        "GitHub Copilot",
+        "GitHub Actions",
+        "GitHub AI CodeMaker",
+        "GitHub Chat Coder AI"
       ],
-      correctAnswer: "GitHub Copilot and GitHub Copilot Chat"
+      correctAnswer: "GitHub Copilot"
   },
   {
     question: "What is the purpose of the Live Server extension in VS Code?",
@@ -41,7 +41,7 @@ export const quizQuestions_3 = {
     correctAnswer: "To automatically refresh the web browser when code is saved",
   },
   {
-    question: "How do you pin Visual Studio Code to the Windows Taskbar?",
+    question: "In Windows, how do you pin Visual Studio Code to the Windows Taskbar?",
     choices: [
       "Right-click the application in the Start menu and choose 'Pin to taskbar'",
       "Drag the icon to the desktop",

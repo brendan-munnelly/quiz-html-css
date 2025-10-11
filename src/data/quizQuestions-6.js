@@ -1,99 +1,91 @@
 export const quizQuestions_6 = {
   questions: [
+    {
+      question: "What is the primary purpose of container/semantic tags in HTML5?",
+      choices: [
+        "To change the size and appearance of text",
+        "To add default CSS styles to content",
+        "To structure and organise content into logical blocks",
+        "To create hyperlinks between web pages"
+      ],
+      correctAnswer: "To structure and organize content into logical blocks"
+    },
+    {
+      question: "Which of the following is NOT one of the four major container tags?",
+      choices: [
+        "<nav>", "<header>", "<content>", "<footer>"
+      ],
+      correctAnswer: "<content>"
+    },
   {
-     question: "What is 'marking-up' in HTML?",
+    question: "Where is the <nav> container typically located in a web page?",
     choices: [
-      "Adding links to a web page",
-      "Adding HTML tags to text content",
-      "Creating a folder for HTML files",
-      "Running scripts in a browser"
+      "At the bottom of the page",
+      "In the middle of the page",
+      "At the top of the page",
+      "Inside the footer"
     ],
-    correctAnswer: "Adding HTML tags to text content",
+    correctAnswer: "At the top of the page"
   },
   {
-    question: "What is the purpose of the HTMLHint extension in VS Code?",
+    question: "What do visual designers commonly call the list of menu hyperlinks in the <nav> element?",
     choices: [
-      "To format HTML files",
-      "To identify and correct HTML mark-up errors",
-      "To create new HTML tags",
-      "To upload files to GitHub"
+      "The menu block",
+      "The navbar",
+      "The hero block",
+      "The header menu"
     ],
-    correctAnswer: "To identify and correct HTML mark-up errors",
+    correctAnswer: "The navbar"
   },
   {
-    question: "How do you install the HTMLHint extension in VS Code?",
-    choices: [
-      "By using the terminal to install the extension",
-      "By downloading it from the VS Code website",
-      "By searching for 'HTMLHint' in the Extensions view and clicking Install",
-      "By enabling it in the VS Code settings"
-    ],
-    correctAnswer: "By searching for 'HTMLHint' in the Extensions view and clicking Install",
+    question: "Which tag should contain the top-level heading and introductory text of a page?",
+    choices: ["<header>", "<nav>", "<section>", "<footer>"],
+    correctAnswer: "<header>",
   },
   {
-    question: "How many <title> tags should be in the <head> of an HTML document?",
+    question: "What is the purpose of the <section> tag in relation to the <main> container?",
     choices: [
-      "As many as needed", 
-      "At least one", 
-      "Exactly one", 
-      "None"
+      "To replace the <main> container",
+      "To subdivide the <main> container for different layouts and styles",
+      "To create navigation menus",
+      "To define the header content"
     ],
-    correctAnswer: "Exactly one"
-   },
-  {
-    question: "How many <h1> tags should typically be in the <body> of an HTML document?",
-      choices: ["As many as needed", "At least one", "Exactly one", "None"],
-      correctAnswer: "Exactly one"
+    correctAnswer: "To subdivide the <main> container for different layouts and styles"
   },
   {
-    question: "What is the function of closing tags in HTML?",
-    choices: [
-      "They are optional in all cases",
-      "They help specify the end of an HTML element",
-      "They can be omitted if the element is empty",
-      "They allow HTML elements to load faster"
-    ],
-    correctAnswer: "They help specify the end of an HTML element",
+    question: "Which tag typically contains legal and copyright information on a web page?",
+    choices: ["<footer>", "<header>", "<main>", "<nav>"],
+    correctAnswer: "<footer>",
   },
   {
-    question: "What does HTMLHint do when you open a web page with errors in VS Code?",
+    question: "What content would you expect to find in the <header> container?",
     choices: [
-      "Automatically corrects the errors",
-      "Shows a warning with the number of errors and their line numbers",
-      "Deletes invalid HTML tags",
-      "Highlights the errors in the browser"
+      "Navigation links and logo",
+      "The <h1> heading and introductory text",
+      "Main content of the web page",
+      "Legal and copyright information"
     ],
-    correctAnswer: "Shows a warning with the number of errors and their line numbers",
+    correctAnswer: "The <h1> heading and introductory text"
   },
   {
-    question: "What is the correct way to save an HTML file when using the 'Save Page As...' command?",
+    question: "How can you generate Lorem Ipsum text in VS Code?",
     choices: [
-      "Web Page, complete",
-      "Web Page, HTML Only",
-      "Text Document",
-      "All Files"
+      "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
+      "By typing random characters",
+      "By pressing the Ctrl+L key",
+      "By copying it from the web"
     ],
-    correctAnswer: "Web Page, HTML Only"
+    correctAnswer: "By typing 'lo' and selecting it from the Emmet Abbreviation menu",
   },
   {
-    question: "When uploading files to GitHub, what method must be used if you're uploading both files and folders?",
+    question: "What is the purpose of the <footer> container in a web page?",
     choices: [
-      "File select method",
-      "Drag-and-drop method",
-      "Command line interface",
-      "GitHub desktop application"
+      "To hold the main content of the page",
+      "To display the navigation menu",
+      "To contain organisation details, related links, and legal/copyright information",
+      "To display the page title and introductory text"
     ],
-    correctAnswer: "Drag-and-drop method"
-  },
-  {
-    question: "What is the correct way to ensure your web page is published on GitHub?",
-    choices: [
-      "Use a local file server",
-      "Commit changes in your repository and wait a few minutes",
-      "Send an email to GitHub support",
-      "Only upload HTML files and avoid CSS or JS files"
-    ],
-    correctAnswer: "Commit changes in your repository and wait a few minutes",
-  },
+    correctAnswer: "To contain organisation details, related links, and legal/copyright information"
+  }
 ],
 }

@@ -1,103 +1,104 @@
 export const quizQuestions_7 = {
   questions: [
-  {    question: "What does SEO stand for?",
+  {
+    question: "What does CSS stand for?",
     choices: [
-      "Search Engine Optimisation",
-      "Social Engagement Online",
-      "Secure Email Operations",
-      "Search Engine Operations"
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Computer Styling System",
+      "Cascading Simple Syntax"
     ],
-    correctAnswer: "Search Engine Optimisation",
+    correctAnswer: "Cascading Style Sheets",
   },
   {
-    question: "What are the three steps search engines use to process web pages?",
+    question: "Where are CSS styles typically stored in a well-organised website structure?",
     choices: [
-      "Ranking, Indexing, Searching",
-      "Crawling, Indexing, Ranking",
-      "Browsing, Searching, Ranking",
-      "Crawling, Tagging, Ranking"
+      "In the HTML file",
+      "In a sub-folder named css inside an assets folder",
+      "In a folder named scripts",
+      "In the root folder of the website"
     ],
-    correctAnswer: "Crawling, Indexing, Ranking",
+    correctAnswer: "In a sub-folder named css inside an assets folder",
   },
   {
-    question: "What is the recommended maximum character length for a title tag?",
+    question: "What is the purpose of a CSS selector?",
     choices: [
-      "100 characters",
-      "160 characters",
-      "60 characters",
-      "200 characters"
+      "To 'target' HTML elements in a linked web page for styling",
+      "To create new HTML elements",
+      "To link JavaScript files to a webpage",
+      "To remove unwanted styles"
     ],
-    correctAnswer: "60 characters",
+    correctAnswer: "To 'target' HTML elements in a linked web page for styling",
   },
   {
-    question: "What does the description meta tag influence on search engine result pages (SERPs)?",
+    question: "In CSS, what is a declaration block enclosed in?",
     choices: [
-      "The ranking of your web page",
-      "The page's clickable title",
-      "The snippet of text displayed under the title",
-      "The file name of your web page"
+      "Square bracket [ ]",
+      "Curly brace { }",
+      "Parentheses ( )",
+      "Angle brackets < >"
     ],
-    correctAnswer: "The snippet of text displayed under the title",
+    correctAnswer: "Curly brace { }",
   },
   {
-    question: "Which of the following is true about the h1 tag for SEO?",
+    question: "How are comments written in CSS files?",
     choices: [
-      "You should use more than one h1 tag per page",
-      "It should be located in the <head> section",
-      "It should include the main keyword or phrase",
-      "The h1 tag does not affect SEO"
+      "// Comment",
+      "<!-- Comment -->",
+      "/* Comment */",
+      "# Comment"
     ],
-    correctAnswer: "It should include the main keyword or phrase",
+    correctAnswer: "/* Comment */",
   },
   {
-    question: "What does the 'robots' meta tag with 'noindex' do?",
+    question: "In a CSS style rule, what follows the property name?",
     choices: [
-      "Prevents web crawlers from indexing a page",
-      "Increases the ranking of a web page",
-      "Automatically generates keywords for a page",
-      "Optimises images for search engines"
+      "A colon (;) and then a value",
+      "A colon (:) and then a another property",
+      "A colon (:) and then a selector",
+      "A colon (:) and then a value",
     ],
-    correctAnswer: "Prevents web crawlers from indexing a page",
+    correctAnswer: "A colon (:) and then a value",
   },
   {
-    question: "What should be included in your description meta tag?",
+    question: "What character must separate CSS style rules within a declaration block?",
     choices: [
-      "Only the title of the page",
-      "A detailed history of the company",
-      "A call to action and keywords",
-      "Multiple keywords separated by commas"
+      "Comma (,)",
+      "Semi-colon (;)",
+      "Colon (:)",
+      "Dot (.)"
     ],
-    correctAnswer: "A call to action and keywords",
+    correctAnswer: "Semi-colon (;)",
   },
   {
-    question: "Why is it important to avoid duplicate title and description tags on different web pages?",
+    question: "What term is used to describe files that are used by web pages but are not themselves HTML files?",
     choices: [
-      "It slows down the website's loading speed",
-      "It confuses search engines and hurts SEO ranking",
-      "It helps improve ranking for all pages",
-      "It is illegal to duplicate tags"
+      "resources",
+      "elements",
+      "accessories",
+      "assets"
     ],
-    correctAnswer: "It confuses search engines and hurts SEO ranking",
+    correctAnswer: "assets",
   },
   {
-    question: "What is the purpose of the title tag in SEO?",
+    question: "What is the purpose of a 'selector' in CSS?",
     choices: [
-      "It defines the style of the web page",
-      "It provides the clickable headline in SERPs",
-      "It adds a caption to images",
-      "It increases the website's loading speed"
+      "To select colours for the website",
+      "To target HTML elements in a linked web page",
+      "To select which browsers can display the website",
+      "To choose between different CSS frameworks"
     ],
-    correctAnswer: "It provides the clickable headline in SERPs",
+    correctAnswer: "To target HTML elements in a linked web page",
   },
   {
-    question: "Which of the following contributes to a higher click-through rate (CTR) on SERPs?",
+    question: "What is the correct format for linking to a CSS file in HTML?",
     choices: [
-      "Using generic descriptions for every page",
-      "Clear, relevant descriptions with a call to action",
-      "Hiding the description meta tag",
-      "Using over 200 characters in the description tag"
+      "<link rel='stylesheet' href='style.css'>",
+      "<link src='style.css' type='text/css'>",
+      "<style href='style.css'>",
+      "<meta rel='stylesheet' src='style.css'>"
     ],
-    correctAnswer: "Clear, relevant descriptions with a call to action",
-  },
+    correctAnswer: "<link rel='stylesheet' href='style.css'>",
+  }
 ],
 }

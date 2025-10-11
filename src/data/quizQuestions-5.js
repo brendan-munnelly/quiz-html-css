@@ -2,64 +2,104 @@
 export const quizQuestions_5 = {
   questions: [
     {
-    question: "What are the two main parts of a basic HTML file?",
-    choices: ["<header> and <footer>", "<head> and <body>", "<div> and <span>", "<section> and <article>"],
-    correctAnswer: "<head> and <body>",
+      question: "What is the term used for adding HTML tags to text content in a web page?",
+      choices: [
+          "Coding",
+          "Debugging",
+          "Marking-up",
+          "Formatting"
+      ],
+      correctAnswer: "Marking-up"
   },
   {
-    question: "Which tool offers a shortcut to generate basic HTML structure in VS Code?",
-    choices: ["Prettier", "Emmet", "Live Server", "GitHub"],
-    correctAnswer: "Emmet",
+      question: "Which one of the following is NOT a block-level tag?",
+      choices: [
+          "<h1>",
+          "<p>",
+          "<i>",
+          "<h2>"
+      ],
+      correctAnswer: "<i>"
   },
   {
-    question: "Which VS Code shortcut can you use to quickly add the basic HTML structure to a new file?",
-    choices: ["html!", "!html", "!", "html5"],
-    correctAnswer: "!"
+      question: "What is the key characteristic of block-level tags?",
+      choices: [
+          "They only take up as much width as necessary",
+          "They start a new line and take up the full width available",
+          "They can only be used inside paragraph tags",
+          "They can only contain text content"
+      ],
+      correctAnswer: "They start a new line and take up the full width available"
   },
   {
-    question: "Where should the description meta tag be placed in an HTML file?",
-    choices: ["Inside the <body> tag", "Inside the <footer> tag", "Inside the <head> tag", "Inside the <nav> tag"],
-    correctAnswer: "Inside the <head> tag",
+      question: "Which VS Code extension is recommended for identifying HTML errors?",
+      choices: [
+          "HTMLValidator",
+          "HTMLHint",
+          "HTMLChecker",
+          "HTMLLint"
+      ],
+      correctAnswer: "HTMLHint"
   },
   {
-    question: "What is the correct format for creating a hyperlink in HTML?",
-    choices: [
-      "<a link='...'>Click here</a>",
-      "<a href='...'>Click here</a>",
-      "<link href='...'>Click here</link>",
-      "<a src='...'>Click here</a>"
-    ],
-    correctAnswer: "<a href='...'>Click here</a>",
+      question: "Which of the following is a characteristic of inline tags?",
+      choices: [
+          "They always start on a new line",
+          "They take up the full width available",
+          "They only take up as much width as necessary",
+          "They must be inside a paragraph tag"
+      ],
+      correctAnswer: "They only take up as much width as necessary"
   },
   {
-    question: "What is the correct HTML tag to mark up a paragraph?",
-    choices: ["<p>", "<h1>", "<div>", "<span>"],
-    correctAnswer: "<p>",
+      question: "How many <h1> tags should ideally be in a web page?",
+      choices: [
+          "As many as needed",
+          "At least three",
+          "Just one",
+          "None"
+      ],
+      correctAnswer: "Just one"
   },
   {
-    question: "Which HTML tag pair is used for bold text?",
-    choices: ["<strong>", "<em>", "<b>", "<bold>"],
-    correctAnswer: "<b>",
+      question: "What must you always include when you use an opening HTML tag?",
+      choices: [
+          "A comment explaining the tag",
+          "A corresponding closing tag",
+          "An attribute specifying the tag's function",
+          "A class or ID attribute"
+      ],
+      correctAnswer: "A corresponding closing tag"
   },
   {
-    question: "In GitHub Pages, what is the recommended name for the home page of a website?",
-    choices: ["main.html", "home.html", "index.html", "default.html"],
-    correctAnswer: "index.html"
+      question: "Which of these is an example of an inline tag?",
+      choices: [
+          "<h3>",
+          "<p>",
+          "<b>",
+          "<div>"
+      ],
+      correctAnswer: "<b>"
   },
   {
-    question: "Which of the following statements is true about HTML comments?",
-    choices: [
-      "They are displayed in the web browser",
-      "They begin with <!-- and end with -->",
-      "They can only be one line long",
-      "They must appear in the <body> section"
-    ],
-    correctAnswer: "They begin with <!-- and end with -->",
+      question: "What is a potential issue with having multiple <h1> tags in a web page?",
+      choices: [
+          "It will cause the page to load slowly",
+          "It will confuse search engines like Google",
+          "It will make text unreadable for users",
+          "It will break the HTMLHint extension"
+      ],
+      correctAnswer: "It will confuse search engines like Google"
   },
   {
-    question: "Which symbol is used to separate folder names in a web address?",
-    choices: ["Backslash (\\)", "Forward slash (/)", "Hyphen (-)", "Underscore (_)"],
-    correctAnswer: "Forward slash (/)"
+      question: "Besides HTMLHint, what other tool does the tutorial suggest for finding and fixing HTML errors?",
+      choices: [
+          "W3C Validator",
+          "HTML Inspector",
+          "AI services (like Microsoft Copilot)",
+          "Browser Developer Tools"
+      ],
+      correctAnswer: "AI services (like Microsoft Copilot)"
   },
 ],
 }

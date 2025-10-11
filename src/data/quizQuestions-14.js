@@ -1,104 +1,104 @@
 export const quizQuestions_14 = {
   questions: [
     {
-        question: "What is a class in HTML?",
-        choices: [
-          "A version of an HTML tag that can apply specific styles",
-          "A CSS selector for creating new tags",
-          "A function in JavaScript",
-          "A method to link two HTML files"
-        ],
-        correctAnswer: "A version of an HTML tag that can apply specific styles",
+      question: "What HTML tag is used to create a hyperlink?",
+      choices: [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<hyperlink>"
+      ],
+      correctAnswer: "<a>",
       },
       {
-        question: "How are class names defined in an HTML tag?",
+        question: "Which attribute is used to specify the destination of a hyperlink?",
         choices: [
-          "Inside single quotes ('')",
-          "Inside a pair of parentheses",
-          "Inside a pair of double quotes (\"\")",
-          "Inside curly braces {}"
+          "src",
+          "link",
+          "href",
+          "destination"
         ],
-        correctAnswer: "Inside a pair of double quotes (\"\")",
+        correctAnswer: "href",
       },
       {
-        question: "What character must a CSS class selector start with?",
+        question: "What is the difference between absolute and relative URLs?",
         choices: [
-          "#",
-          ".",
+          "Absolute URLs are shorter than relative URLs",
+          "Absolute URLs contain the full address including protocol and domain, while relative URLs only include page name and possibly folder path",
+          "Relative URLs always open in a new tab",
+          "Absolute URLs cannot be used to link to external websites"
+        ],
+        correctAnswer: "Absolute URLs contain the full address including protocol and domain, while relative URLs only include page name and possibly folder path",
+      },
+      {
+        question: "When should you use a relative URL?",
+        choices: [
+          "When linking to a different website",
+          "When linking to pages within the same website",
+          "When you want to open a link in a new tab",
+          "When linking to images"
+        ],
+        correctAnswer: "When linking to pages within the same website",
+      },
+      {
+        question: "Which attribute and value are used to make a hyperlink open in a new browser tab?",
+        choices: [
+          "new=\"tab\"",
+          "tab=\"new\"",
+          "target=\"_new\"",
+          "target=\"_blank\""
+        ],
+        correctAnswer: "target=\"_blank\"",
+      },
+      {
+        question: "What is the purpose of internal hyperlinks?",
+        options: [
+          "To link to external websites only",
+          "To navigate to different parts of the same web page",
+          "To create navigation menus between different pages",
+          "To embed images into hyperlinks"
+        ],
+        correctAnswer: "To navigate to different parts of the same web page",
+      },
+      {
+        question: "What character is used at the beginning of internal hyperlink destinations?",
+        choices: [
           "@",
-          "$"
+          "#",
+          "$",
+          "/"
         ],
-        correctAnswer: ".",
+        correctAnswer: "#",
       },
       {
-        question: "How can you assign multiple classes to a single HTML element?",
+        question: "To create an internal hyperlink destination, what attribute do you add to an HTML element?",
         choices: [
-          "Use commas between class names",
-          "Use a space between class names",
-          "Use a hyphen between class names",
-          "Separate class names using semicolons"
+        "name",
+        "link",
+        "anchor",
+        "id"
         ],
-        correctAnswer: "Use a space between class names",
+        correctAnswer: "id",
       },
       {
-        question: "Which of the following is an example of a custom property in CSS?",
+        question: "Which CSS property can be used to create a smooth scrolling effect when using internal hyperlinks?",
         choices: [
-          "background-color",
-          "--red-500",
-          "color: blue;",
-          "font-size: 16px;"
+          "transition: smooth",
+          "scroll-behavior: smooth",
+          "animation: scroll-smooth",
+          "transition-behavior: smooth"
         ],
-        correctAnswer: "--red-500",
+        correctAnswer: "scroll-behavior: smooth",
       },
       {
-        question: "How do you apply a custom property in CSS?",
+        question: "Which statement about hyperlink attributes is correct?",
         choices: [
-          "color: red-500;",
-          "background-color: var(--red-500);",
-          "color: --red-500;",
-          "background-color: red;"
+          "The href attribute must always come before any other attributes in a hyperlink",
+          "You must include a space between attributes in an opening hyperlink tag",
+          "The target attribute must always come after the href attribute",
+          "You can only use two attributes maximum in a hyperlink tag"
         ],
-        correctAnswer: "background-color: var(--red-500);",
-      },
-      {
-        question: "What should the value of a custom property always begin with?",
-        choices: [
-          "Two dashes (--)",
-          "A colon (:)",
-          "An equal sign (=)",
-          "A semicolon (;)"
-        ],
-        correctAnswer: "Two dashes (--)",
-      },
-      {
-        question: "Which of the following correctly uses a class in HTML?",
-        choices: [
-          "<section class=\"section-1\"></section>",
-          "<section class.section-1></section>",
-          "<section id=\"section-1\"></section>",
-          "<section #class=\"section-1\"></section>"
-        ],
-        correctAnswer: "<section class=\"section-1\"></section>",
-      },
-      {
-        question: "Which CSS rule will apply a brown background to all elements with the class 'section-3'?",
-        choices: [
-          "section-3 { background-color: brown; }",
-          "#section-3 { background-color: brown; }",
-          ".section-3 { background-color: brown; }",
-          "@section-3 { background-color: brown; }"
-        ],
-        correctAnswer: ".section-3 { background-color: brown; }",
-      },
-      {
-        question: "What is a benefit of using custom properties for colors?",
-        choices: [
-          "They make the website load faster",
-          "They automatically adjust for color-blind users",
-          "They allow for easy updates and maintenance of consistent colors",
-          "They reduce the file size of the CSS"
-        ],
-        correctAnswer: "They allow for easy updates and maintenance of consistent colors"
+        correctAnswer: "You must include a space between attributes in an opening hyperlink tag"
       }
 ],
 }

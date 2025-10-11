@@ -1,94 +1,104 @@
 export const quizQuestions_10 = {
   questions: [
-  {
-    question: "What is negative space in web design?",
-    choices: [
-      "Space filled with background images",
-      "Empty space around elements on a web page",
-      "An area used for advertisements",
-      "Text that is highlighted with colors"
-    ],
-    correctAnswer: "Empty space around elements on a web page",
-  },
-  {
-    question: "What does the term 'assets' refer to in frontend development?",
-    choices: [
-      "Only image files",
-      "Files used by web pages that are not HTML files",
-      "JavaScript files exclusively",
-      "The main HTML files of a website"
-    ],
-    correctAnswer: "Files used by web pages that are not HTML files"
-  },
-  {
-    question: "What character is used to separate a CSS property from its value?",
-      choices: ["Semicolon (;)", "Colon (:)", "Equals sign (=)", "Hyphen (-)"],
-      correctAnswer: "Colon (:)"
-  },
-  {
-    question: "Which CSS property is typically used to create negative space around elements?",
-    choices: [
-      "height",
-      "padding",
-      "border",
-      "width"
-    ],
-    correctAnswer: "padding",
-  },
-  {
-    question: "How would you add padding around the entire body of a web page using CSS?",
-    choices: [
-      "body { text-align: center; }",
-      "body { padding: 4% 20%; }",
-      "body { width: 100%; }",
-      "body { border-spacing: 20px; }"
-    ],
-    correctAnswer: "body { padding: 4% 20%; }",
-  },
-  {
-    question: "Why is negative space important in modern web design?",
-    choices: [
-      "It reduces website file size",
-      "It helps with organizing and separating content visually",
-      "It allows more elements to fit on a page",
-      "It increases the number of links on a page"
-    ],
-    correctAnswer: "It helps with organizing and separating content visually",
-  },
-  {
-    question: "Which container elements might you want to have different negative space settings in modern web design?",
-    choices: [
-      "<p> and <img>",
-      "<nav>, <header>, <section>, <footer>",
-      "<h1> and <h2>",
-      "<div> and <span>"
-    ],
-    correctAnswer: "<nav>, <header>, <section>, <footer>",
-  },
-  {
-    question: "What effect does the following CSS rule have: 'section *:last-child { margin-bottom: 0 !important }'?",
-    choices: [
-      "It adds extra margin to the bottom of every section",
-      "It removes the margin at the bottom of the last child element within a section",
-      "It applies padding to the last section",
-      "It centers all content in the section"
-    ],
-    correctAnswer: "It removes the margin at the bottom of the last child element within a section",
-  },
-  {
-    question: "Which character is used to separate multiple CSS rules within a declaration block?",
-      choices: ["Comma (,)", "Period (.)", "Semicolon (;)", "Slash (/)"],
-      correctAnswer: "Semicolon (;)"
-  },
-  {
-    question: "What does the CSS padding property do?",
-    choices: [
-      "It sets the space between the content and the border of an element",
-      "It sets the space between the border and the edge of the page",
-      "It controls the width of an element",
-      "It controls the height of an element"
-    ],
-    correctAnswer: "It sets the space between the content and the border of an element",
-  }
+    {
+      question: "Which of the following is NOT one of the main colour systems used in web design?",
+      choices: [
+        "RGB values",
+        "Hex codes",
+        "CMYK codes",
+        "Colour names"
+      ],
+      correctAnswer: "CMYK codes",
+    },
+    {
+      question: "What does RGB in the RGB colour system stand for?",
+      choices: [
+        "Red, Green, Blue",
+        "Red, Grey, Black",
+        "Red, Green, Brown",
+        "Rose, Green, Blue"
+      ],
+      correctAnswer: "Red, Green, Blue",
+    },
+    {
+      question: "What are the two most commonly used CSS colour-related properties?",
+      choices: [
+        "color and hue",
+        "color and background-color",
+        "text-color and background-color",
+        "font-color and background"
+      ],
+      correctAnswer: "color and background-color",
+    },
+    {
+      question: "In CSS, how do you reference a custom property (CSS variable) for a colour?",
+      choices: [
+        "color: --blue-500;",
+        "color: $blue-500;",
+        "color: var(blue-500);",
+        "color: var(--blue-500);"
+      ],
+      correctAnswer: "color: var(--blue-500);",
+    },
+    {
+      question: "What symbol must always precede a hexadecimal color code in CSS?",
+      choices: [
+        "$",
+        "#",
+        "&",
+        "@"
+      ],
+      correctAnswer: "#",
+    },
+    {
+      question: "How many colours can be represented using hex codes?",
+      choices: [
+        "147 colours",
+        "16 million colours",
+        "1,000 colours",
+        "255 colours"
+      ],
+      correctAnswer: "16 million colours",
+    },
+    {
+      question: "What is the default background colour for web pages?",
+      choices: [
+        "Black",
+        "Gray",
+        "White",
+        "Transparent"
+      ],
+      correctAnswer: "White",
+    },
+    {
+      question: "In RGB color model, what does rgb(255, 0, 0) represent?",
+      choices: [
+        "Green",
+        "Blue",
+        "Black",
+        "Red"
+      ],
+      correctAnswer: "Red",
+    },
+    {
+      question: "What is the purpose of having a dominant 'brand' colour for a website?",
+      choices: [
+        "To save on design costs",
+        "To establish brand identity and recognition",
+        "To reduce page loading time",
+        "To comply with accessibility guidelines"
+      ],
+      correctAnswer: "To establish brand identity and recognition",
+    },
+    {
+      question: "What is the recommended approach when you need to change the background colour of an entire web page?",
+      choices: [
+        "Add a background-color to the <html> element",
+        "Add a background-color to the <body> element",
+        "Add a background-color to the <main> element",
+        "Use inline styling on each <section> element"
+      ],
+      correctAnswer: "Add a background-color to the <body> element",
+    }
 ],
 }
