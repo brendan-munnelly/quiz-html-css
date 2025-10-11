@@ -52,7 +52,7 @@ export const quizQuestions_14 = {
       },
       {
         question: "What is the purpose of internal hyperlinks?",
-        options: [
+        choices: [
           "To link to external websites only",
           "To navigate to different parts of the same web page",
           "To create navigation menus between different pages",
