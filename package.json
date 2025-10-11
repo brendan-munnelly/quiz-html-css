@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "clean-gh-pages": "npx gh-pages-clean && powershell Remove-Item -Recurse -Force node_modules\\.cache\\gh-pages",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist -r git@github.com:brendan-munnelly/quiz-html-css.git"
   },
