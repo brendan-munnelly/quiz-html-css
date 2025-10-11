@@ -41,6 +41,9 @@ export const quizQuestions_6 = {
     question: "Which tag should contain the top-level heading and introductory text of a page?",
     choices: ["<header>", "<nav>", "<section>", "<footer>"],
     correctAnswer: "<header>",
+    question: "Which tag should contain the top-level heading and introductory text of a page?",
+    choices: ["<header>", "<nav>", "<section>", "<footer>"],
+    correctAnswer: "<header>",
   },
   {
     question: "What is the purpose of the <section> tag in relation to the <main> container?",
@@ -53,6 +56,9 @@ export const quizQuestions_6 = {
     correctAnswer: "To subdivide the <main> container for different layouts and styles"
   },
   {
+    question: "Which tag typically contains legal and copyright information on a web page?",
+    choices: ["<footer>", "<header>", "<main>", "<nav>"],
+    correctAnswer: "<footer>",
     question: "Which tag typically contains legal and copyright information on a web page?",
     choices: ["<footer>", "<header>", "<main>", "<nav>"],
     correctAnswer: "<footer>",

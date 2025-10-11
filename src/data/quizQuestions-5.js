@@ -1,4 +1,3 @@
-
 export const quizQuestions_5 = {
   questions: [
     {

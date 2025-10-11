@@ -52,11 +52,11 @@ const Quiz = () => {
   } 
   else if (quizId === '2') {
       questions = quizQuestions_2.questions; 
-      questionsTopic = 'GitHub Pages';
+      questionsTopic = 'Variables and literals';
   }
   else if (quizId === '3') {
     questions = quizQuestions_3.questions; 
-    questionsTopic = 'VS Code';
+    questionsTopic = 'Working with strings';
   }
   else if (quizId === '4') {
     questions = quizQuestions_4.questions; 
@@ -65,6 +65,7 @@ const Quiz = () => {
   else if (quizId === '5') {
     questions = quizQuestions_5.questions; 
     questionsTopic = 'Debugging HTML';
+    questionsTopic = 'Debugging HTML';
   }
   else if (quizId === '6') {
     questions = quizQuestions_6.questions; 
@@ -72,6 +73,7 @@ const Quiz = () => {
   }
   else if (quizId === '7') {
     questions = quizQuestions_7.questions;
+    questionsTopic = 'Working with CSS'; 
     questionsTopic = 'Working with CSS'; 
   }
   else if (quizId === '8') {

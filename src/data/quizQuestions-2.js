@@ -1,95 +1,104 @@
 export const quizQuestions_2 = {
   questions: [
-
-  {
-    question: "What is a 'repo' in GitHub?",
-    choices: ["A type of file", "A project location for hosting code", "A GitHub theme", "A GitHub branch"],
-    correctAnswer: "A project location for hosting code",
-  },
-  {
-    question: "Which part of your GitHub Pages web address is determined by your GitHub username?",
-    choices: [
-      "The 'github.com' part",
-      "The 'github.io' part",
-      "The first part, before 'github.io'",
-      "The last part, after the domain"
-    ],
-    correctAnswer: "The first part, before 'github.io'",
-  },
-  {
-    question: "What icon can you click to always return to your GitHub Dashboard?",
-      choices: [
-        "Home icon",
-        "User profile icon",
-        "Octocat icon",
-        "Dashboard icon"
-      ],
-      correctAnswer: "Octocat icon"
-  },
-  {
-    question: "Why is your GitHub username important with GitHub Pages?",
-    choices: [
-      "It forms part of your password",
-      "It is your login credential",
-      "It forms the first part of your GitHub Pages web address",
-      "It must match your email"
-    ],
-    correctAnswer: "It forms the first part of your GitHub Pages web address",
-  },
-  {
-    question: "Which branch in GitHub is used to host websites with GitHub Pages?",
-    choices: ["master", "gh-pages", "main", "docs"],
-    correctAnswer: "gh-pages",
-  },
-  {
-    question: "What should your repository name be to host your website on GitHub Pages?",
-    choices: [
-      "repo-name.github.com",
-      "username.github.io",
-      "github-pages.io",
-      "username.github.com"
-    ],
-    correctAnswer: "username.github.io",
-  },
-  {
-    question: "How do you initialize a new repository with a README file?",
-    choices: [
-      "Click 'Create repository' and then upload a README file",
-      "Select 'Add a README file' during repository creation",
-      "Create the README file manually after creating the repository",
-      "Use the 'Import repository' feature"
-    ],
-    correctAnswer: "Select 'Add a README file' during repository creation",
-  },
-  {
-    question: "What is NOT true about GitHub usernames?",
-    choices: [
-      "They can be changed later",
-      "They must be the same as your email address",
-      "They form the first part of your GitHub Pages web address",
-      "They should be easy for others to remember"
-    ],
-    correctAnswer: "They must be the same as your email address"
-  },
-  {
-    question: "Whicjh option should you select to ensure others can view your web pages?",
-    choices: [
-      "Private repository",
-      "Public repository",
-      "Shared repository",
-      "Open-source license"
-    ],
-    correctAnswer: "Public repository"
-  },
-  {
-    question: "Which of the following is a valid GitHub Pages web address?",
-    choices: [
-      "https://username.github.com",
-      "https://username.io",
-      "https://username.github.io",
-      "https://www.username.github.io"
-    ],
-    correctAnswer: "https://username.github.io",
-  },
-],
-}
+      {
+          question: "Which keyword should you use when declaring a variable whose value will NOT change during script execution?",
+          choices: [
+              "let",
+              "const",
+              "var",
+              "static"
+          ],
+          correctAnswer: "const"
+      },
+      {
+          question: "What is the correct way to declare a variable name containing multiple words?",
+          choices: [
+              "first name",
+              "first-name",
+              "firstName",
+              "FIRSTNAME"
+          ],
+          correctAnswer: "firstName"
+      },
+      {
+          question: "Which of the following is a valid string variable declaration in JavaScript?",
+          choices: [
+              "let name = Smith;",
+              "let name = 'Smith';",
+              "let name = Smith';",
+              "let 'name' = 'Smith';"
+          ],
+          correctAnswer: "let name = 'Smith';"
+      },
+      {
+          question: "What does the following code output: let price = 42; console.log(typeof price);",
+          choices: [
+              "string",
+              "number",
+              "integer",
+              "decimal"
+          ],
+          correctAnswer: "number"
+      },
+      {
+          question: "In JavaScript, what does the = operator represent?",
+          choices: [
+              "Equal to",
+              "Comparison",
+              "Assignment",
+              "Mathematical equality"
+          ],
+          correctAnswer: "Assignment"
+      },
+      {
+          question: "Which symbols can be used to create a string variable in JavaScript?",
+          choices: [
+              "Only single quotes (')",
+              "Only double quotes (\")",
+              "Only backticks (`)",
+              "Single quotes, double quotes, or backticks"
+          ],
+          correctAnswer: "Single quotes, double quotes, or backticks"
+      },
+      {
+          question: "What is the correct way to use template literals in JavaScript?",
+          choices: [
+              "'Hello ${name}'",
+              "\"Hello ${name}\"",
+              "`Hello ${name}`",
+              "{Hello ${name}}"
+          ],
+          correctAnswer: "`Hello ${name}`"
+      },
+      {
+          question: "Which statement about JavaScript variable names is TRUE?",
+          choices: [
+              "They can contain spaces",
+              "They are not case-sensitive",
+              "They are case-sensitive",
+              "They must start with a number"
+          ],
+          correctAnswer: "They are case-sensitive"
+      },
+      {
+          question: "What type of variable is commonly used to store true/false values in JavaScript?",
+          choices: [
+              "String",
+              "Number",
+              "Boolean",
+              "Binary"
+          ],
+          correctAnswer: "Boolean"
+      },
+      {
+          question: "When declaring a numeric variable in JavaScript, what should you NOT do?",
+          choices: [
+              "Omit the quotes around the number",
+              "Use decimal points for floating numbers",
+              "Put quotes around the number",
+              "Use whole numbers"
+          ],
+          correctAnswer: "Put quotes around the number"
+      }
+  ]
+};
