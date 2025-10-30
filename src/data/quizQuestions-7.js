@@ -11,7 +11,7 @@ export const quizQuestions_7 = {
     correctAnswer: "Cascading Style Sheets",
   },
   {
-    question: "Where are CSS styles typically stored in a well-organised website structure?",
+    question: "Where are CSS stylesheets typically stored in a well-organised website structure?",
     choices: [
       "In the HTML file",
       "In a sub-folder named css inside an assets folder",
