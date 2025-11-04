@@ -110,7 +110,7 @@ const Quiz = () => {
   }
   else if (quizId === '16') {
     questions = quizQuestions_16.questions; 
-    questionsTopic = 'Working with Images';
+    questionsTopic = 'Working with Favicons';
   }
   
   else if (quizId === '17') {
