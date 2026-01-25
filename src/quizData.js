@@ -4,7 +4,7 @@ const quizDataNew = {
     quiz1: {
         questions: [
             {
-                question: "What is the most efficient way to add JavaScript code directly in an HTML file?",
+                question: "What is the most efficient way to add JavaScript code DIRECTLY in an HTML file?",
                 choices: [
                     "Add it anywhere in the HTML file",
                     "Add it in the <head> section without any attributes",
