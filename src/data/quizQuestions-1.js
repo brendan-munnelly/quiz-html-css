@@ -22,14 +22,14 @@ export const quizQuestions_1 = {
             correctAnswer: "Add them in the <head> with the defer attribute"
         },
         {
-            question: "What keyboard combination opens DevTools in Windows browsers?",
+            question: "What keyboard combination opens DevTools in web browsers on Microsoft Windows?",
             choices: [
-                "Ctrl + Shift + I",
+                "Ctrl + Shift + i",
                 "Ctrl + Alt + Delete",
                 "Ctrl + P",
-                "Shift + Alt + I"
+                "Shift + Alt + i"
             ],
-            correctAnswer: "Ctrl + Shift + I"
+            correctAnswer: "Ctrl + Shift + i"
         },
         {
             question: "Which of the following is a benefit of using external JavaScript files?",
@@ -42,7 +42,7 @@ export const quizQuestions_1 = {
             correctAnswer: "They separate HTML and JavaScript code"
         },
         {
-            question: "What is the purpose of the console.log() function in JavaScript?",
+            question: "What is the purpose of the console.log() statement in JavaScript?",
             choices: [
                 "To create a new console window",
                 "To log users out of the application",
@@ -56,30 +56,30 @@ export const quizQuestions_1 = {
             choices: [
                 "It prevents the JavaScript from running at all",
                 "It makes the code run faster",
-                "It allows the files to load 'in the background' and run after the page is loaded",
+                "It allows the code files to load 'in the background' and run after the web page is loaded",
                 "It reduces the file size"
             ],
-            correctAnswer: "It allows the files to load 'in the background' and run after the page is loaded"
+            correctAnswer: "It allows the code files to load 'in the background' and run after the web page is loaded"
         },
         {
-            question: "What happens when you press Ctrl + plus(+) or minus(-) in DevTools?",
+            question: "What's the correct way to add console.log() statements in your code?",
             choices: [
-                "It opens a new console tab",
-                "It changes the font size",
-                "It zooms the entire webpage",
-                "It switches between dark and light mode"
+                "console[log(\"Hello\")]",
+                "console.log(\"Hello\");",
+                "Console.Log(\"Hello\")",
+                "log.console(\"Hello\")"
             ],
-            correctAnswer: "It changes the font size"
+            correctAnswer: "console.log(\"Hello\");"
         },
         {
-            question: "What is the main advantage of using the Live Server VS Code extension?",
+            question: "What happens if JavaScript code tries to access HTML elements before the page is fully loaded?",
             choices: [
-                "It makes your code run faster",
-                "It automatically fixes JavaScript errors",
-                "It provides instant reload when files are saved",
-                "It compresses your JavaScript files"
+                "Nothing, JavaScript will wait automatically",
+                "The web page page will crash",
+                "You may see errors in the Console because the elements don't exist yet",
+                "The JavaScript will execute but ignore those specific lines"
             ],
-            correctAnswer: "It provides instant reload when files are saved"
+            correctAnswer: "You may see errors in the Console because the elements don't exist yet"
         },
         {
             question: "Which statement about external JavaScript files is FALSE?",
