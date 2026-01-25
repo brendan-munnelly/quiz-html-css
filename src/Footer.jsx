@@ -12,7 +12,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer">
-      <p><a className="home_link" href="https://brendan-munnelly.github.io/quiz-html-css/#/">https://brendan-munnelly.github.io/quiz-html-css/#/</a></p>
+      <p><a className="home_link" href="https://brendan-munnelly.github.io/quiz-dorset-javascript/">https://brendan-munnelly.github.io/quiz-dorset-javascript/</a></p>
     </div>
   );
 };
