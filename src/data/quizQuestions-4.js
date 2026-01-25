@@ -1,104 +1,104 @@
 export const quizQuestions_4 = {
   questions: [
-      {
-          question: "Which of the following variable assignments will create a numeric data type in JavaScript?",
-          choices: [
-              "let num = '42';",
-              "let num = `42`;",
-              "let num = 42;",
-              "let num = \"42\";"
-          ],
-          correctAnswer: "let num = 42;"
-      },
-      {
-          question: "What is the result of the expression: 5 + 2 * 3?",
-          choices: [
-              "21",
-              "11",
-              "17",
-              "15"
-          ],
-          correctAnswer: "11"
-      },
-      {
-          question: "Which of the following is NOT a valid number in JavaScript?",
-          choices: [
-              "-6.3456",
-              ".2727",
-              "34,000",
-              "42"
-          ],
-          correctAnswer: "34,000"
-      },
-      {
-          question: "What will typeof return when used with a numeric variable?",
-          choices: [
-              "integer",
-              "float",
-              "number",
-              "numeric"
-          ],
-          correctAnswer: "number"
-      },
-      {
-          question: "What is the result of (5 + 2) * 3?",
-          choices: [
-              "11",
-              "21",
-              "17",
-              "15"
-          ],
-          correctAnswer: "21"
-      },
-      {
-          question: "Which operator cannot be applied to literal values and can only be used with numeric variables?",
-          choices: [
-              "Addition (+)",
-              "Multiplication (*)",
-              "Increment (++)",
-              "Division (/)"
-          ],
-          correctAnswer: "Increment (++)"
-      },
-      {
-          question: "In JavaScript's operator precedence, which operation is performed first?",
-          choices: [
-              "Addition",
-              "Subtraction",
-              "Division",
-              "Multiplication"
-          ],
-          correctAnswer: "Division"
-      },
-      {
-          question: "What happens when you declare let someVar = '12';?",
-          choices: [
-              "Creates a numeric variable with value 12",
-              "Creates a string variable with value '12'",
-              "Throws an error",
-              "Automatically converts to number 12"
-          ],
-          correctAnswer: "Creates a string variable with value '12'"
-      },
-      {
-          question: "If you have let x = 5; what will be the value of x after --x?",
-          choices: [
-              "6",
-              "4",
-              "5",
-              "undefined"
-          ],
-          correctAnswer: "4"
-      },
-      {
-          question: "Which statement about JavaScript numbers is TRUE?",
-          choices: [
-              "JavaScript has separate types for integers and decimals",
-              "JavaScript only has one main number data type for practical use",
-              "JavaScript cannot handle decimal numbers",
-              "JavaScript requires type declaration for numbers"
-          ],
-          correctAnswer: "JavaScript only has one main number data type for practical use"
-      }
-  ]
-};
+    {
+      question: "What are the two main structural parts of an HTML file?",
+      choices: [
+          "<header> and <footer>",
+          "<html> and <body>",
+          "<head> and <body>",
+          "<title> and <content>"
+      ],
+      correctAnswer: "<head> and <body>"
+  },
+  {
+      question: "Which shortcut in VS Code can you use to add the basic HTML structure to a new file?",
+      choices: [
+          "Type 'html' and press Tab",
+          "Type '!' and press Tab",
+          "Type 'html5' and press Enter",
+          "Type '<>' and press Tab"
+      ],
+      correctAnswer: "Type '!' and press Tab"
+  },
+  {
+      question: "What tag is used to define the title of an HTML document?",
+      choices: [
+          "<header>",
+          "<heading>",
+          "<title>",
+          "<name>"
+      ],
+      correctAnswer: "<title>"
+  },
+  {
+      question: "Which tag would you use to create the largest heading in HTML?",
+      choices: [
+          "<heading1>",
+          "<h1>",
+          "<head>",
+          "<header>"
+      ],
+      correctAnswer: "<h1>"
+  },
+  {
+      question: "Which tag is used to create a paragraph in HTML?",
+      choices: [
+          "<paragraph>",
+          "<p>",
+          "<text>",
+          "<para>"
+      ],
+      correctAnswer: "<p>"
+  },
+  {
+      question: "What tag should you use to make text italic in HTML?",
+      choices: [
+          "<italic>",
+          "<i>",
+          "<italics>",
+          "<em>"
+      ],
+      correctAnswer: "<i>"
+  },
+  {
+      question: "What is the correct HTML tag for making text bold?",
+      choices: [
+          "<bold>",
+          "<strong>",
+          "<b>",
+          "<thick>"
+      ],
+      correctAnswer: "<b>"
+  },
+  {
+      question: "What is the correct syntax for adding a comment in HTML?",
+      choices: [
+          "// This is a comment",
+          "/* This is a comment */",
+          "<!-- This is a comment -->",
+          "# This is a comment"
+      ],
+      correctAnswer: "<!-- This is a comment -->"
+  },
+  {
+      question: "What is the standard name for the home page of a website?",
+      choices: [
+          "home.html",
+          "main.html",
+          "default.html",
+          "index.html"
+      ],
+      correctAnswer: "index.html"
+  },
+  {
+      question: "Which tag is used to create a hyperlink in HTML?",
+      choices: [
+          "<link>",
+          "<href>",
+          "<a>",
+          "<url>"
+      ],
+      correctAnswer: "<a>"
+  }
+    ],
+    }

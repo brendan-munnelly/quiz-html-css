@@ -1,104 +1,104 @@
 export const quizQuestions_10 = {
   questions: [
-      {
-          question: "What is required to convert a regular anonymous function to an arrow function?",
-          choices: [
-              "Add the 'arrow' keyword",
-              "Remove 'function' keyword and add => after ()",
-              "Just add the => symbol anywhere",
-              "Change 'function' to 'arrow'"
-          ],
-          correctAnswer: "Remove 'function' keyword and add => after ()"
-      },
-      {
-          question: "When can you omit the parentheses () in an arrow function's parameters?",
-          choices: [
-              "When there are multiple parameters",
-              "When there is exactly one parameter",
-              "When there are no parameters",
-              "Parentheses are always required"
-          ],
-          correctAnswer: "When there is exactly one parameter"
-      },
-      {
-          question: "In a single-statement arrow function, what can be omitted?",
-          choices: [
-              "Only the curly braces",
-              "Only the return keyword",
-              "Both curly braces and return keyword",
-              "The arrow (=>) symbol"
-          ],
-          correctAnswer: "Both curly braces and return keyword"
-      },
-      {
-          question: "What is an implicit return in an arrow function?",
-          choices: [
-              "When the function automatically returns undefined",
-              "When the return value is specified without using the return keyword",
-              "When the function returns multiple values",
-              "When the function has no return value"
-          ],
-          correctAnswer: "When the return value is specified without using the return keyword"
-      },
-      {
-          question: "When is it NOT recommended to use arrow functions?",
-          choices: [
-              "With single parameters",
-              "With implicit returns",
-              "With multiple statements in the function body",
-              "With callbacks"
-          ],
-          correctAnswer: "With multiple statements in the function body"
-      },
-      {
-          question: "Which is a valid single-statement arrow function with implicit return?",
-          choices: [
-              "const add = (a,b) => { return a + b }",
-              "const add = (a,b) => a + b",
-              "const add = (a,b) => { a + b }",
-              "const add = (a,b) => return a + b"
-          ],
-          correctAnswer: "const add = (a,b) => a + b"
-      },
-      {
-          question: "How do you make an arrow function execute immediately?",
-          choices: [
-              "Add () at the end before the semicolon",
-              "Use the immediate keyword",
-              "Add the execute() method",
-              "Call it right after declaration"
-          ],
-          correctAnswer: "Add () at the end before the semicolon"
-      },
-      {
-          question: "What is true about hoisting with arrow functions?",
-          choices: [
-              "Arrow functions are hoisted",
-              "Arrow functions must be created before being called",
-              "Hoisting depends on the number of parameters",
-              "Only single-line arrow functions are hoisted"
-          ],
-          correctAnswer: "Arrow functions must be created before being called"
-      },
-      {
-          question: "Where are arrow functions commonly used?",
-          choices: [
-              "Only in global scope",
-              "Only with multiple statements",
-              "In callbacks, arrays, objects, and event-handlers",
-              "Only with explicit returns"
-          ],
-          correctAnswer: "In callbacks, arrays, objects, and event-handlers"
-      },
-      {
-          question: "What's the main advantage of using arrow functions?",
-          choices: [
-              "They can handle more parameters",
-              "They provide more functionality",
-              "They offer concise syntax for single-statement functions",
-              "They are always faster than regular functions"
-          ],
-          correctAnswer: "They offer concise syntax for single-statement functions"
-      }
-  ]
-};
+    {
+      question: "Which of the following is NOT one of the main colour systems used in web design?",
+      choices: [
+        "RGB values",
+        "Hex codes",
+        "CMYK codes",
+        "Colour names"
+      ],
+      correctAnswer: "CMYK codes",
+    },
+    {
+      question: "What does RGB in the RGB colour system stand for?",
+      choices: [
+        "Red, Green, Blue",
+        "Red, Grey, Black",
+        "Red, Green, Brown",
+        "Rose, Green, Blue"
+      ],
+      correctAnswer: "Red, Green, Blue",
+    },
+    {
+      question: "What are the two most commonly used CSS colour-related properties?",
+      choices: [
+        "color and hue",
+        "color and background-color",
+        "text-color and background-color",
+        "font-color and background"
+      ],
+      correctAnswer: "color and background-color",
+    },
+    {
+      question: "In CSS, how do you reference a custom property (CSS variable) for a colour?",
+      choices: [
+        "color: --blue-500;",
+        "color: $blue-500;",
+        "color: var(blue-500);",
+        "color: var(--blue-500);"
+      ],
+      correctAnswer: "color: var(--blue-500);",
+    },
+    {
+      question: "What symbol must always precede a hexadecimal color code in CSS?",
+      choices: [
+        "$",
+        "#",
+        "&",
+        "@"
+      ],
+      correctAnswer: "#",
+    },
+    {
+      question: "How many colours can be represented using hex codes?",
+      choices: [
+        "147 colours",
+        "16 million colours",
+        "1,000 colours",
+        "255 colours"
+      ],
+      correctAnswer: "16 million colours",
+    },
+    {
+      question: "What is the default background colour for web pages?",
+      choices: [
+        "Black",
+        "Gray",
+        "White",
+        "Transparent"
+      ],
+      correctAnswer: "White",
+    },
+    {
+      question: "In RGB color model, what does rgb(255, 0, 0) represent?",
+      choices: [
+        "Green",
+        "Blue",
+        "Black",
+        "Red"
+      ],
+      correctAnswer: "Red",
+    },
+    {
+      question: "What is the purpose of having a dominant 'brand' colour for a website?",
+      choices: [
+        "To save on design costs",
+        "To establish brand identity and recognition",
+        "To reduce page loading time",
+        "To comply with accessibility guidelines"
+      ],
+      correctAnswer: "To establish brand identity and recognition",
+    },
+    {
+      question: "What is the recommended approach when you need to change the background colour of an entire web page?",
+      choices: [
+        "Add a background-color to the <html> element",
+        "Add a background-color to the <body> element",
+        "Add a background-color to the <main> element",
+        "Use inline styling on each <section> element"
+      ],
+      correctAnswer: "Add a background-color to the <body> element",
+    }
+],
+}

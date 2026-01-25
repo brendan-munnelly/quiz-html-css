@@ -20,8 +20,80 @@ const Quiz = () => {
     wrongAnswers: 0,
 })
 
+<<<<<<< HEAD
 // Get questions and topic based on quizId
 const questions = quizData[`quiz${quizId}`].questions;
+=======
+  let questions; 
+  let questionsTopic; 
+
+  if (quizId === '1') {
+      questions = quizQuestions_1.questions; 
+      questionsTopic = 'Folders and Files';
+  } 
+  else if (quizId === '2') {
+      questions = quizQuestions_2.questions; 
+      questionsTopic = 'Variables and literals';
+  }
+  else if (quizId === '3') {
+    questions = quizQuestions_3.questions; 
+    questionsTopic = 'Working with strings';
+  }
+  else if (quizId === '4') {
+    questions = quizQuestions_4.questions; 
+    questionsTopic = 'Working with HTML';
+  }
+  else if (quizId === '5') {
+    questions = quizQuestions_5.questions; 
+    questionsTopic = 'Debugging HTML';
+    questionsTopic = 'Debugging HTML';
+  }
+  else if (quizId === '6') {
+    questions = quizQuestions_6.questions; 
+    questionsTopic = 'Container/Semantic Elements';
+  }
+  else if (quizId === '7') {
+    questions = quizQuestions_7.questions;
+    questionsTopic = 'Working with CSS'; 
+    questionsTopic = 'Working with CSS'; 
+  }
+  else if (quizId === '8') {
+    questions = quizQuestions_8.questions; 
+    questionsTopic = 'Working with Layout';
+  }
+  else if (quizId === '9') {
+    questions = quizQuestions_9.questions; 
+    questionsTopic = 'Working with Text';
+  }
+  else if (quizId === '10') {
+    questions = quizQuestions_10.questions; 
+    questionsTopic = 'Working with Colours';
+  }
+  else if (quizId === '11') {
+    questions = quizQuestions_11.questions; 
+    questionsTopic = 'Working with Classes';
+  }
+  else if (quizId === '12') {
+    questions = quizQuestions_12.questions; 
+    questionsTopic = 'Working with Images and Videos';
+  }
+  else if (quizId === '13') {
+    questions = quizQuestions_13.questions; 
+    questionsTopic = 'Working with Google Fonts';
+  }
+  else if (quizId === '14') {
+    questions = quizQuestions_14.questions; 
+    questionsTopic = 'Working with Hyperlinks';
+  }
+  else if (quizId === '15') {
+    questions = quizQuestions_15.questions; 
+    questionsTopic = 'Styling Hyperlinks';
+  }
+  else if (quizId === '16') {
+    questions = quizQuestions_16.questions; 
+    questionsTopic = 'Working with Favicons';
+  }
+>>>>>>> 8a5250383156cf60488055e4f6fe29d6bb652a3e
   
 // Define topics mapping
 const topics = {

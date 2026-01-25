@@ -1,17 +1,17 @@
 export const quizQuestions_7 = {
   questions: [
-    {
-      question: "What does the term 'assets' refer to in frontend development?",
-      choices: [
-        "Only image files",
-        "Any files used by web pages that are not HTML files",
-        "JavaScript files exclusively",
-        "The main HTML files of a website"
-      ],
-      correctAnswer: "Any files used by web pages that are not HTML files"
-    },
   {
-    question: "Where are CSS styles typically stored in a well-organized website structure?",
+    question: "What does CSS stand for?",
+    choices: [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Computer Styling System",
+      "Cascading Simple Syntax"
+    ],
+    correctAnswer: "Cascading Style Sheets",
+  },
+  {
+    question: "Where are CSS stylesheets typically stored in a well-organised website structure?",
     choices: [
       "In the HTML file",
       "In a sub-folder named css inside an assets folder",
@@ -23,71 +23,75 @@ export const quizQuestions_7 = {
   {
     question: "What is the purpose of a CSS selector?",
     choices: [
-      "To target elements in a linked HTML page for styling",
+      "To 'target' HTML elements in a linked web page for styling",
       "To create new HTML elements",
       "To link JavaScript files to a webpage",
       "To remove unwanted styles"
     ],
-    correctAnswer: "To target elements in a linked HTML page for styling",
+    correctAnswer: "To 'target' HTML elements in a linked web page for styling",
   },
   {
-    question: "How is a declaration block created in CSS?",
+    question: "In CSS, what is a declaration block enclosed in?",
     choices: [
-      "With an opening and closing square bracket [ ]",
-      "With an opening and closing curly brace { }",
-      "With a forward slash /",
-      "With an asterisk *"
+      "Square bracket [ ]",
+      "Curly brace { }",
+      "Parentheses ( )",
+      "Angle brackets < >"
     ],
-    correctAnswer: "With an opening and closing curly brace { }",
+    correctAnswer: "Curly brace { }",
   },
   {
-    question: "What character is used to separate a CSS property from its value?",
-      choices: ["Semicolon (;)", "Colon (:)", "Equals sign (=)", "Hyphen (-)"],
-      correctAnswer: "Colon (:)"
-  },
-
-  {
-    question: "Which HTML tag is used to link a CSS file to a web page?",
+    question: "How are comments written in CSS files?",
     choices: [
-      "<style>",
-      "<link>",
-      "<script>",
-      "<meta>"
+      "// Comment",
+      "<!-- Comment -->",
+      "/* Comment */",
+      "# Comment"
     ],
-    correctAnswer: "<link>",
+    correctAnswer: "/* Comment */",
   },
   {
-    question: "What is the role of the 'href' attribute in the link tag?",
+    question: "In a CSS style rule, what follows the property name?",
     choices: [
-      "It specifies the stylesheet file to be linked",
-      "It applies default styles to the page",
-      "It imports JavaScript files",
-      "It declares the page title"
+      "A colon (;) and then a value",
+      "A colon (:) and then a another property",
+      "A colon (:) and then a selector",
+      "A colon (:) and then a value",
     ],
-    correctAnswer: "It specifies the stylesheet file to be linked",
+    correctAnswer: "A colon (:) and then a value",
   },
   {
-    question: "How are CSS comments created?",
+    question: "What character must separate CSS style rules within a declaration block?",
     choices: [
-      "Using double slashes //",
-      "Using hash symbols #",
-      "Using forward slash and asterisk /* */",
-      "Using quotation marks"
+      "Comma (,)",
+      "Semi-colon (;)",
+      "Colon (:)",
+      "Dot (.)"
     ],
-    correctAnswer: "Using forward slash and asterisk /* */",
+    correctAnswer: "Semi-colon (;)",
   },
   {
-    question: "What does the following CSS rule do? 'text-align: center;'",
+    question: "What term is used to describe files that are used by web pages but are not themselves HTML files?",
     choices: [
-      "Centers text within its containing element",
-      "Adds margin to the text",
-      "Changes the font size",
-      "Aligns the text to the left"
+      "resources",
+      "elements",
+      "accessories",
+      "assets"
     ],
-    correctAnswer: "Centers text within its containing element",
+    correctAnswer: "assets",
   },
   {
-    question: "What is the correct format for linking a CSS file in HTML?",
+    question: "What is the purpose of a 'selector' in CSS?",
+    choices: [
+      "To select colours for the website",
+      "To target HTML elements in a linked web page",
+      "To select which browsers can display the website",
+      "To choose between different CSS frameworks"
+    ],
+    correctAnswer: "To target HTML elements in a linked web page",
+  },
+  {
+    question: "What is the correct format for linking to a CSS file in HTML?",
     choices: [
       "<link rel='stylesheet' href='style.css'>",
       "<link src='style.css' type='text/css'>",

@@ -1,6 +1,6 @@
 {
-  "homepage": "https://brendan-munnelly.github.io/quiz-dorset-javascript/",
-  "name": "quiz-dorset-javascript",
+  "homepage": "https://brendan-munnelly.github.io/quiz-html-css/",
+  "name": "quiz-html-css",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,104 +1,104 @@
 export const quizQuestions_9 = {
   questions: [
       {
-          question: "What is the main characteristic of an anonymous function?",
-          choices: [
-              "It must be called immediately",
-              "It has no name",
-              "It cannot have parameters",
-              "It cannot return values"
-          ],
-          correctAnswer: "It has no name"
+        "question": "When might you use font-weight: normal for an <h1> element?",
+        "choices": [
+          "Never, headings should always be bold",
+          "When the heading contains more than 10 words",
+          "For large headings that may look better without being bold",
+          "Only when using serif fonts"
+        ],
+        "correctAnswer": "For large headings that may look better without being bold"
       },
       {
-          question: "How can an anonymous function be called in a program?",
-          choices: [
-              "By using its name directly",
-              "By assigning it to a variable and calling the variable",
-              "By using the anonymous keyword",
-              "It cannot be called, only executed immediately"
-          ],
-          correctAnswer: "By assigning it to a variable and calling the variable"
+        "question": "What is the main difference between serif and sans-serif fonts?",
+        "choices": [
+          "Serif fonts are always smaller than sans-serif fonts",
+          "Serif fonts have small lines or 'squiggles' at the ends of characters",
+          "Sans-serif fonts can only be used for headings",
+          "Serif fonts are only available on Mac computers"
+        ],
+        "correctAnswer": "Serif fonts have small lines or 'squiggles' at the ends of characters"
       },
       {
-          question: "Which keyword is recommended when declaring a variable to store an anonymous function?",
-          choices: [
-              "let",
-              "var",
-              "const",
-              "function"
-          ],
-          correctAnswer: "const"
+        "question": "What's the purpose of using 'header h2' as a CSS selector instead of just 'h2'?",
+        "choices": [
+          "It makes the text render faster in browsers",
+          "It specifically targets h2 elements that are inside a header element",
+          "It's required for responsive design",
+          "It applies the style to both header and h2 elements"
+        ],
+        "correctAnswer": "It specifically targets h2 elements that are inside a header element"
       },
       {
-          question: "What is the key difference between function declarations and anonymous functions regarding hoisting?",
-          choices: [
-              "Anonymous functions are hoisted, function declarations are not",
-              "Both are hoisted",
-              "Anonymous functions are not hoisted, function declarations are",
-              "Neither are hoisted"
-          ],
-          correctAnswer: "Anonymous functions are not hoisted, function declarations are"
+        "question": "By default, how do web browsers display paragraph text?",
+        "choices": [
+          "font-weight: bold; font-style: italic",
+          "font-weight: normal; font-style: normal",
+          "font-weight: bold; font-style: normal",
+          "font-weight: normal; font-style: italic"
+        ],
+        "correctAnswer": "font-weight: normal; font-style: normal"
       },
       {
-          question: "How do you make an anonymous function execute immediately after its creation?",
-          choices: [
-              "Add () at the end of the function before the semicolon",
-              "Use the immediate keyword",
-              "Call it right after creating it",
-              "Add a return statement"
-          ],
-          correctAnswer: "Add () at the end of the function before the semicolon"
+        "question": "Which CSS property would you use to make all text uppercase?",
+        "choices": [
+          "text-case: upper",
+          "font-case: uppercase",
+          "text-transform: uppercase",
+          "font-transform: caps"
+        ],
+        "correctAnswer": "text-transform: uppercase"
       },
       {
-          question: "Which statement about anonymous functions is TRUE?",
-          choices: [
-              "They cannot have parameters",
-              "They cannot return values",
-              "They can be used as callback functions",
-              "They must always be immediately invoked"
-          ],
-          correctAnswer: "They can be used as callback functions"
+        "question": "What happens when you use letter-spacing with a negative value?",
+        "choices": [
+          "The text becomes italic",
+          "Letters are brought closer together",
+          "Letters are spaced further apart",
+          "The text size shrinks proportionally"
+        ],
+        "correctAnswer": "Letters are brought closer together"
       },
       {
-          question: "What happens when you assign an anonymous function to a variable?",
-          choices: [
-              "The function itself is stored in the variable",
-              "Only the function's return value is stored in the variable",
-              "The function is automatically executed",
-              "The function becomes named"
-          ],
-          correctAnswer: "Only the function's return value is stored in the variable"
+        "question": "What's the main advantage of using CSS custom properties for font sizes?",
+        "choices": [
+          "They load faster than regular CSS properties",
+          "They allow you to define values once and reuse them throughout your stylesheet",
+          "They're the only way to implement responsive typography",
+          "They're required for modern browsers"
+        ],
+        "correctAnswer": "They allow you to define values once and reuse them throughout your stylesheet"
       },
       {
-          question: "Which is a valid way to declare an anonymous function?",
-          choices: [
-              "function myFunc() {}",
-              "const myFunc = function() {}",
-              "anonymous function() {}",
-              "let function = () {}"
-          ],
-          correctAnswer: "const myFunc = function() {}"
+        "question": "Which text-align value is NOT recommended for use in web design according to the tutorial?",
+        "choices": [
+          "left",
+          "center",
+          "right",
+          "justify"
+        ],
+        "correctAnswer": "justify"
       },
       {
-          question: "Where are anonymous functions commonly used?",
-          choices: [
-              "Only in global scope",
-              "Only in loops",
-              "In callbacks, arrays, objects, and event-handlers",
-              "Only in conditional statements"
-          ],
-          correctAnswer: "In callbacks, arrays, objects, and event-handlers"
+        "question": "What is fluid typography?",
+        "choices": [
+          "Text that changes color when hovered over",
+          "Text that animates when scrolled into view",
+          "Text sizes that scale smoothly according to the width of the user's device viewport",
+          "Text that automatically translates into different languages"
+        ],
+        "correctAnswer": "Text sizes that scale smoothly according to the width of the user's device viewport"
       },
       {
-          question: "Which type of function CANNOT be immediately invoked?",
-          choices: [
-              "Anonymous functions",
-              "Function declarations",
-              "Arrow functions",
-              "Callback functions"
-          ],
-          correctAnswer: "Function declarations"
+        "question": "Which HTML tag should be used to make a few words italic within a paragraph?",
+        "choices": [
+          "<italic>",
+          "<em>",
+          "<i>",
+          "<style>"
+        ],
+        "correctAnswer": "<i>"
       }
-  ]
-};
+],
+}
